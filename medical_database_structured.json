@@ -1,0 +1,4347 @@
+{
+  "metadata": {
+    "total_cases": 148,
+    "source_file": "contoh_dokumen_extracted_extracted.txt",
+    "categories": {
+      "penyakit_infeksi_parasit": 30,
+      "perinatal": 11,
+      "gejala_tanda_abnormal": 7,
+      "kulit_subkutan": 6,
+      "": 4,
+      "penyakit_darah_imun": 8,
+      "sistem_respirasi": 10,
+      "sistem_sirkulasi": 19,
+      "endokrin_nutrisi_metabolik": 8,
+      "sistem_genitourinaria": 15,
+      "gangguan_mental_perilaku": 2,
+      "kehamilan_persalinan": 13,
+      "sistem_pencernaan": 8,
+      "sistem_saraf": 3,
+      "faktor_pelayanan_kesehatan": 3,
+      "injury_poisoning": 1
+    }
+  },
+  "cases": [
+    {
+      "id": "case_0001",
+      "diagnosa": "Penggunaan kode kombinasi untuk Typhoid fever\n(A01) dengan Diarrhoea and gastroenteritis of\npresumed infectious origin menjadi Salmonella\nenteritis",
+      "kode_diagnosa": [
+        "A00",
+        "A08",
+        "A02.0",
+        "A01",
+        "A01.0",
+        "A09"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Sesuai dengan instruksi excludes pada volume\nI sub bab other gastroenteritis and colitis of\ninfectious and unspecified origin fever (A09)\nyang menyatakan gastroenteritis and colitis due\nto bacterial, protozoal, viral and other specified\ninfectious agents mengarah pada kode spesifik\nsesuai dengan organismenya (A00-A08). Sehingga\nkode A09 seharusnya tidak dikoding lagi apabila\nsudah ada typhoid fever (A01.0) yang tegak\nsecara medis. Tidak ada instruksi khusus untuk\nmenggabungkan antara A01.0 dengan A09 menjadi\nsalmonella, enteritis (A02.0) baik dari volume I\nmaupun III.",
+      "perhatian_khusus": "",
+      "keywords": [
+        "untuk",
+        "presumed",
+        "penggunaan",
+        "menjadi",
+        "A01",
+        "fever",
+        "A09",
+        "diarrhoea",
+        "A02.0",
+        "kombinasi",
+        "and",
+        "infectious",
+        "kode",
+        "origin",
+        "A01.0",
+        "A00",
+        "salmonella",
+        "enteritis",
+        "typhoid",
+        "dengan",
+        "gastroenteritis",
+        "A08"
+      ],
+      "kategori": "penyakit_infeksi_parasit"
+    },
+    {
+      "id": "case_0002",
+      "diagnosa": "Diare (A09)",
+      "kode_diagnosa": [
+        "P78.3",
+        "A00",
+        "K52.9",
+        "A09.0",
+        "A08",
+        "A09.9",
+        "A06.0",
+        "A01.0",
+        "A09"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Diare noninfeksius menggunakan kode : K52.9\nDiare noninfeksius pada neonatus menggunakan\nkode: P78.3.\n Mohon diperhatikan pada ICD-10 Revisi Tahun\n2010 terkait koding A09.- A09.0 dan A09.9\ndigunakan untuk diare yang penyebabnya tidak\ndiketahui penyebabnya. Jika penyebab diare\nsudah diketahui maka gunakan kode spesifik.\nJika disebabkan oleh bakteri, protozoa, virus, dan\norganisme spesifik lainnya : A00-A08.\n ICD 10 2010 Volume 1\n A09 Other gastroenteritis and colitis of infectious\nand unspecified origin\nExcludes: due to bacterial, protozoal, viral and\nother specified infectious agents (A00-A08)\nNoninfective (see noninfectious) diarrhoea (K52.9)\n· neonatal ( P78.3 )",
+      "perhatian_khusus": "Diare yang merupakan gejala/bagian dari suatu",
+      "keywords": [
+        "A00",
+        "P78.3",
+        "K52.9",
+        "A09.0",
+        "A08",
+        "A09.9",
+        "A06.0",
+        "diare",
+        "kode",
+        "A01.0",
+        "A09"
+      ],
+      "kategori": "perinatal"
+    },
+    {
+      "id": "case_0003",
+      "diagnosa": "TB dengan Pneumonia/Bronkhopneumonia\nmenggunakan kode gabung yaitu A15/A16",
+      "kode_diagnosa": [
+        "A16",
+        "A16.2",
+        "A15"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Secara kaidah ICD 10 terdapat kode A16.2\nTuberculosis of lung dengan penjelasan bahwa\nkondisi Tuberculous pneumonia sudah termasuk\n(include) dalam kode A16.2.",
+      "perhatian_khusus": "",
+      "keywords": [
+        "bronkhopneumonia",
+        "dengan",
+        "menggunakan",
+        "pneumonia",
+        "yaitu",
+        "gabung",
+        "include",
+        "A16",
+        "A16.2",
+        "tuberculosis",
+        "A15",
+        "kondisi",
+        "kode"
+      ],
+      "kategori": "penyakit_infeksi_parasit"
+    },
+    {
+      "id": "case_0004",
+      "diagnosa": "Tuberculosis of lung, confirmed by culture only\n(A15.1)",
+      "kode_diagnosa": [
+        "A15.1",
+        "B90",
+        "J65",
+        "P37.0",
+        "B20.0",
+        "A15",
+        "A19"
+      ],
+      "prosedur": "",
+      "aspek_koding": "A15.1 Tuberculosis of lung, confirmed by culture\nonly\n Hanya digunakan pada TB paru yang sudah\nditegakan melalui kultur.\n Perhatikan pada sub bab (A15-A19)\ntermasuk kondisi : infeksi yang disebabkan oleh\nMycobacterium tuberculosis dan Myocobacterium\nbovis\n Perhatikan pada kondisi TB paru yang lainya\ndigunakan kode tersendiri:\ncongenital tuberculosis : P37.0\nhuman immunodeficiency HIV disease resulting in\ntuberculosis : B20.0\npneumoconiosis associated with tuberculosis : J65\nsequelae of tuberculosis : B90\nsilicotuberculosis : J65",
+      "perhatian_khusus": "",
+      "keywords": [
+        "only",
+        "A15.1",
+        "confirmed",
+        "B90",
+        "J65",
+        "tuberculosis",
+        "P37.0",
+        "B20.0",
+        "A15",
+        "kondisi",
+        "A19",
+        "kode",
+        "lung",
+        "culture"
+      ],
+      "kategori": "penyakit_infeksi_parasit"
+    },
+    {
+      "id": "case_0005",
+      "diagnosa": "Tuberculosis of lung, confirmed histologically\n(A15.2)",
+      "kode_diagnosa": [
+        "A15.2",
+        "B90",
+        "J65",
+        "P37.0",
+        "B20.0",
+        "A15",
+        "A19"
+      ],
+      "prosedur": "",
+      "aspek_koding": "A15.2 Tuberculosis of lung, confirmed\nhistologically\n Hanya digunakan pada TB paru yang sudah\nditegakan melalui pemeriksaan histologis.\n Perhatikan pada sub bab (A15-A19)\ntermasuk kondisi : infeksi yang disebabkan oleh\nMycobacterium tuberculosis dan Myocobacterium\nbovis\n Perhatikan pada kondisi TB paru yang laiinya\ndigunakan kode tersendiri:\n congenital tuberculosis : P37.0\nhuman immunodeficiency HIV disease resulting in\ntuberculosis : B20.0\npneumoconiosis associated with tuberculosis : J65\nsequelae of tuberculosis : B90\nsilicotuberculosis : J65",
+      "perhatian_khusus": "",
+      "keywords": [
+        "A15.2",
+        "confirmed",
+        "B90",
+        "J65",
+        "tuberculosis",
+        "P37.0",
+        "B20.0",
+        "A15",
+        "kondisi",
+        "histologically",
+        "A19",
+        "kode",
+        "lung"
+      ],
+      "kategori": "penyakit_infeksi_parasit"
+    },
+    {
+      "id": "case_0006",
+      "diagnosa": "Tuberculosis of lung, confirmed by unspecified\nmeans (A15.3)",
+      "kode_diagnosa": [
+        "A15.3",
+        "B90",
+        "J65",
+        "P37.0",
+        "B20.0"
+      ],
+      "prosedur": "",
+      "aspek_koding": "A15.3 Tuberculosis of lung, confirmed by\nunspecified means\n Digunakan pada kondisi TB paru yang sudah tegak\nnamun tidak dapat dipastikan secara bakteriologi\nataupun histologis.\n Perhatikan pada kondisi TB paru yang lainya\ndigunakan kode tersendiri:\n congenital tuberculosis : P37.0\nhuman immunodeficiency HIV disease resulting in\ntuberculosis : B20.0\npneumoconiosis associated with tuberculosis : J65\nsequelae of tuberculosis : B90\nsilicotuberculosis : J65",
+      "perhatian_khusus": "",
+      "keywords": [
+        "confirmed",
+        "A15.3",
+        "means",
+        "B90",
+        "J65",
+        "tuberculosis",
+        "P37.0",
+        "B20.0",
+        "kondisi",
+        "unspecified",
+        "kode",
+        "lung"
+      ],
+      "kategori": "penyakit_infeksi_parasit"
+    },
+    {
+      "id": "case_0007",
+      "diagnosa": "Tuberculous pleurisy, conf bacteriologically/his’y\n(A15.6)",
+      "kode_diagnosa": [
+        "A15.7",
+        "B90",
+        "J65",
+        "A15.6",
+        "P37.0",
+        "B20.0",
+        "A15",
+        "A19"
+      ],
+      "prosedur": "",
+      "aspek_koding": "A15.6 Tuberculous pleurisy, confirmed\nbacteriologically and histologically\n Tuberculosis of pleura\nTuberculosis empyema --> comfirmed\nbacteriologically and histologically\n Excludes : in primary respiratory tuberculosis,\nconfirmed bacteriologically and histologically\n(A15.7)",
+      "perhatian_khusus": "Perhatikan pada sub bab (A15-A19)",
+      "keywords": [
+        "A15.7",
+        "conf",
+        "his",
+        "bacteriologically",
+        "pleurisy",
+        "tuberculous",
+        "B90",
+        "J65",
+        "A15.6",
+        "P37.0",
+        "B20.0",
+        "tuberculosis",
+        "A15",
+        "A19"
+      ],
+      "kategori": "penyakit_infeksi_parasit"
+    },
+    {
+      "id": "case_0008",
+      "diagnosa": "Tb lung without mention of bacteriological or\nhistological confirmation (A16)",
+      "kode_diagnosa": [
+        "A17",
+        "B90",
+        "J65",
+        "A18",
+        "A16",
+        "P37.0",
+        "B20.0",
+        "A15",
+        "A19"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Kriteria inklusi sub bab:\nInfeksi yang disebabkan oleh Mycobacterium\ntuberculosis and Mycobacterium bovis\n Kriteria eksklusi sub bab:\ncongenital tuberculosis (P37.0)\nhuman immunodeficieny [HIV] disease resulting in\ntuberculosis (B20.0)\npneumoconiosis associated with tuberculosis\n(J65)\nsequelae of tuberculosis (B90.-)\nsilicotuberculosis (J65)\n Kriteria inklusi : bronkiektasis, fibrosis paru,\npneumonia, pneumothorax (tidak perlu dikoding\nterpisah)",
+      "perhatian_khusus": "Hanya digunakan untuk infeksi tuberkulosa pada",
+      "keywords": [
+        "histological",
+        "confirmation",
+        "A17",
+        "B90",
+        "pneumonia",
+        "J65",
+        "A18",
+        "A16",
+        "P37.0",
+        "bacteriological",
+        "B20.0",
+        "A15",
+        "without",
+        "mention",
+        "tuberculosis",
+        "A19",
+        "lung"
+      ],
+      "kategori": "penyakit_infeksi_parasit"
+    },
+    {
+      "id": "case_0009",
+      "diagnosa": "Tuberculosis of lung, bacteriologically & histolog’y\nneg (A16.0)",
+      "kode_diagnosa": [
+        "A16.0",
+        "B90",
+        "J65",
+        "P37.0",
+        "B20.0",
+        "A15",
+        "A19"
+      ],
+      "prosedur": "",
+      "aspek_koding": "A16.0 Tuberculosis of lung, bacteriologically and\nhistologically negative\n Digunakan pada kondisi TB paru dengan hasil\npemeriksaan bakteriologi dan histologi negatif.\nTermasuk didalamnya kondisi tuberculous :\n- bronchiectasis\n- fibrosis of lung\n- pneumonia\n- pneumothorax\n Perhatikan pada sub bab (A15-A19)\nIncludes : infections due to Mycobacterium\ntuberculosis and Myocobacterium bovis\n Excludes : congenital tuberculosis (P37.0)\nhuman immunodeficiency HIV disease resulting in\ntuberculosis (B20.0)\npneumoconiosis associated with tuberculosis\n(J65)\nsequelae of tuberculosis (B90,-)\nsilicotuberculosis (J65)",
+      "perhatian_khusus": "",
+      "keywords": [
+        "histolog",
+        "A16.0",
+        "bacteriologically",
+        "B90",
+        "J65",
+        "pneumonia",
+        "tuberculosis",
+        "P37.0",
+        "B20.0",
+        "A15",
+        "kondisi",
+        "neg",
+        "A19",
+        "lung"
+      ],
+      "kategori": "penyakit_infeksi_parasit"
+    },
+    {
+      "id": "case_0010",
+      "diagnosa": "Tuberculosis lung bact and histological examin not\ndone (A16.1)",
+      "kode_diagnosa": [
+        "A16.0",
+        "B90",
+        "J65",
+        "P37.0",
+        "B20.0",
+        "A15",
+        "A16.1",
+        "A19"
+      ],
+      "prosedur": "",
+      "aspek_koding": "A16.1 Tuberculosis of lung, bacteriological and\nhistological examination not done\nConditions listed in A16.0, bacteriological and\nhistological examination not done\n Perhatikan pada sub bab (A15-A19)\nIncludes : infections due to Mycobacterium\ntuberculosis and Myocobacterium bovis\n Excludes : congenital tuberculosis (P37.0)\nhuman immunodeficiency HIV disease resulting in\ntuberculosis (B20.0)\npneumoconiosis associated with tuberculosis\n(J65)\nsequelae of tuberculosis (B90,-)\nsilicotuberculosis (J65)",
+      "perhatian_khusus": "",
+      "keywords": [
+        "A16.0",
+        "histological",
+        "A16.1",
+        "B90",
+        "examin",
+        "J65",
+        "not",
+        "and",
+        "tuberculosis",
+        "P37.0",
+        "done",
+        "bact",
+        "B20.0",
+        "A15",
+        "A19",
+        "lung"
+      ],
+      "kategori": "penyakit_infeksi_parasit"
+    },
+    {
+      "id": "case_0011",
+      "diagnosa": "TB dengan Malnutrisi",
+      "kode_diagnosa": [
+        "A16.9",
+        "E41"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Kode kombinasi TB (A16.9) dengan malnutrisi\nhanya untuk kasus marasmus yaitu kode E41.",
+      "perhatian_khusus": "Kriteria malnutrisi sesuai dengan PNPK PDGKI.",
+      "keywords": [
+        "A16.9",
+        "E41",
+        "dengan",
+        "malnutrisi",
+        "kode"
+      ],
+      "kategori": "penyakit_infeksi_parasit"
+    },
+    {
+      "id": "case_0012",
+      "diagnosa": "Diagnosa utama TB dengan diagnosa sekunder\nPneumonia/Bronkhopneumonia dan septicaemia",
+      "kode_diagnosa": [
+        "A15.2",
+        "J18.9",
+        "A41.9",
+        "A16.2",
+        "A40.3"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Kode Pneumonia (J18.9) dengan TB Paru\n(A15.2 atau A16.2) sudah termasuk dalam kode\nA15.2 atau A16.2 (pastikan hasil pemeriksaan\npenunjang).\n Kode A16.2 digunakan untuk TB Paru tanpa\npemeriksaan bacteriologi atau histologi.\nTidak ada instruksi includes / excludes secara\nlangsung dari kode pneumonia, unspecified\n(J18.9) dengan septicaemia, unspecified (A41.9)\nbaik dari volume I maupun III. Kode septicaemia \ndue to streptococcus pneumoniae (A40.3)\ndapat digunakan apabila sepsis yang sudah\njelas disebabkan oleh organisme spesifik yaitu\nstreptococcus pneumoniae yang tegak secara\nmedis.",
+      "perhatian_khusus": "",
+      "keywords": [
+        "bronkhopneumonia",
+        "A15.2",
+        "dengan",
+        "sekunder",
+        "utama",
+        "pneumonia",
+        "septicaemia",
+        "J18.9",
+        "A41.9",
+        "A16.2",
+        "dan",
+        "A40.3",
+        "sepsis",
+        "diagnosa",
+        "kode"
+      ],
+      "kategori": "penyakit_infeksi_parasit"
+    },
+    {
+      "id": "case_0013",
+      "diagnosa": "Sepsis dengan shock sepsis (A41.9 + R57.2)",
+      "kode_diagnosa": [
+        "A49.9",
+        "O85",
+        "A40",
+        "A42.7",
+        "A21.7",
+        "A39.2",
+        "O75.3",
+        "B00.7",
+        "O03",
+        "A39.4",
+        "A48.3",
+        "T88.0",
+        "T81.4",
+        "O08.0",
+        "A41.9",
+        "O07",
+        "A32.7",
+        "A26.7",
+        "A54.8",
+        "A20.7",
+        "A22.7",
+        "P36",
+        "R57.2",
+        "B37.7",
+        "T80.2",
+        "A24.1",
+        "A28.2"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Sesuai dengan ICD 10 Vol. I Tahun 2010 bahwa\nuntuk kode Sepsis, unspesified (A41.9) termasuk\nseptic shock dan septicaemia dan terdapat catatan\nUse additional code (R57.2), if desired, to identify\nspesified condition.\nPerhatikan Exclude :\nbacteraemia NOS (A49.9)\nduring labour (O75.3)\nfollowing:\n- abortion or ectopic or molar pregnancy (O03-\nO07, O08.0)\n- immunization (T88.0)\n- infusion, transfusion or therapeutic injection\n(T80.2)\nsepsis (due to)(in):\n- actinomycotic (A42.7)\n- anthrax (A22.7)\n- candidal (B37.7)\n- Erysipelothrix (A26.7)\n- extraintestinal yersiniosis (A28.2)\n- gonococcal (A54.8)\n- herpesviral (B00.7)\n- listerial (A32.7)\n- meningococcal (A39.2-A39.4)\n- neonatal (P36.-)\n- postprocedural (T81.4)\n- puerperal (O85)\n- streptococcal (A40.-)\n- tularaemia (A21.7)\nseptic:\n- melioidosis (A24.1)\n- plague (A20.7)\n- toxic shock syndrome (A48.3)",
+      "perhatian_khusus": "Perhatikan tatalaksana",
+      "keywords": [
+        "A49.9",
+        "O85",
+        "A40",
+        "A42.7",
+        "A21.7",
+        "A39.2",
+        "O75.3",
+        "B00.7",
+        "O03",
+        "A39.4",
+        "A48.3",
+        "T88.0",
+        "T81.4",
+        "O08.0",
+        "A41.9",
+        "O07",
+        "A32.7",
+        "A26.7",
+        "A54.8",
+        "A28.2",
+        "A22.7",
+        "P36",
+        "sepsis",
+        "kode",
+        "shock",
+        "dengan",
+        "R57.2",
+        "B37.7",
+        "T80.2",
+        "A24.1",
+        "A20.7"
+      ],
+      "kategori": "penyakit_infeksi_parasit"
+    },
+    {
+      "id": "case_0014",
+      "diagnosa": "Shock sepsis",
+      "kode_diagnosa": [
+        "R57.2"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Sesuai dengan ICD 10 Tahun 2010, Shock sepsis\nmenggunakan kode R57.2",
+      "perhatian_khusus": "Pasien datang dengan kondisi klinis shock sepsis.",
+      "keywords": [
+        "sepsis",
+        "shock",
+        "R57.2",
+        "kode"
+      ],
+      "kategori": "gejala_tanda_abnormal"
+    },
+    {
+      "id": "case_0015",
+      "diagnosa": "Kode kombinasi A41.9 dengan J18.9 menjadi\nA40.3",
+      "kode_diagnosa": [
+        "A41.9",
+        "J18.9",
+        "A40.3"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Tidak ada instruksi includes / excludes secara\nlangsung dari kode pneumonia, unspecified\n(J18.9) dengan septicaemia, unspecified (A41.9)\nbaik dari volume I maupun III. Secara kaidah,\nkedua kode digunakan bersamaan.",
+      "perhatian_khusus": "Kode septicaemia due to streptococcus",
+      "keywords": [
+        "kombinasi",
+        "dengan",
+        "pneumonia",
+        "A41.9",
+        "J18.9",
+        "A40.3",
+        "menjadi",
+        "kode"
+      ],
+      "kategori": "penyakit_infeksi_parasit"
+    },
+    {
+      "id": "case_0016",
+      "diagnosa": "Pada kasus dengan Septicaemia, unspecified\n(A41.9) dan Cardiogenic shock cukup dikode\ndengan Septicaemia, unspecified",
+      "kode_diagnosa": [
+        "A41.9",
+        "R57.0"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Kaidah ini hanya berlaku pada mortality code,\nsedangkan yang digunakan dalam pengajuan klaim\nadalah morbidity code. Pada kaidah morbidity\ntidak ada instruksi includes / excludes dari kode\nsepticaemia, unspecified (A41.9) dengan kode\ncardiogenic shock (R57.0) baik dari volume\nI maupun III sehingga cardiogenic shock dapat\ndikoding.",
+      "perhatian_khusus": "Pengajuan klaim menggunakan kaidah morbidity",
+      "keywords": [
+        "shock",
+        "dikode",
+        "kasus",
+        "dengan",
+        "septicaemia",
+        "cukup",
+        "A41.9",
+        "R57.0",
+        "dan",
+        "cardiogenic",
+        "unspecified",
+        "kode",
+        "pada"
+      ],
+      "kategori": "penyakit_infeksi_parasit"
+    },
+    {
+      "id": "case_0017",
+      "diagnosa": "Gas Gangrene (A48.0)",
+      "kode_diagnosa": [
+        "L88",
+        "I70.2",
+        "E10",
+        "E14",
+        "E11.5",
+        "I73",
+        "A48.0",
+        "R02"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Sesuai kaidah ICD-10 Tahun 2010 jika gangrene\nsaja dapat dikode R02, Gas Gangrene dikode \nA48.0 dan gangrene pada DM diberi kode E10-E14\n(sesuai dengan jenis DM) dengan digit terakhir .5\n(contoh Gangrene DM Tipe 2 di kode E11.5).\n R02 Gangrene, not elsewhere classified\n Perhatikan pada sub bab ICD 10 Volume 1 :\nR02 Ganrene, NEC\nkecuali pada kondisi :\n- atherosclerosis (I70.2)\n- diabetes mellitus (E10-E14 with common fourth\ncharacter. 5)\n- other peripheral vascular disease (I73,-)\ngangrene of certain specified sites\n- see Alphabetical Index\ngas gangrene (A48.0)\npyoderma gangrenosum (L88)",
+      "perhatian_khusus": "",
+      "keywords": [
+        "L88",
+        "gas",
+        "I70.2",
+        "E10",
+        "E14",
+        "E11.5",
+        "I73",
+        "kondisi",
+        "A48.0",
+        "diabetes",
+        "R02",
+        "kode",
+        "gangrene"
+      ],
+      "kategori": "kulit_subkutan"
+    },
+    {
+      "id": "case_0018",
+      "diagnosa": "“Kombinasi Diagnosis A419 Septicaemia,\nunspecified, Diagnosis R571 Hypovolaemic shock\nKode revisi A419 Septicaemia, unspecified",
+      "kode_diagnosa": [
+        "A41.9",
+        "R57.1"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Tidak ada kriteria excludes dan includes pada ICD\n10 volume I dan III, sehingga A41.9 dan R 57.1\ntidak bisa digabungkan",
+      "perhatian_khusus": "Kode A41.9 dan R57.1 dapat dikoding bersamaan.",
+      "keywords": [
+        "shock",
+        "revisi",
+        "septicaemia",
+        "kombinasi",
+        "A41.9",
+        "diagnosis",
+        "hypovolaemic",
+        "unspecified",
+        "R57.1",
+        "kode"
+      ],
+      "kategori": "penyakit_infeksi_parasit"
+    },
+    {
+      "id": "case_0019",
+      "diagnosa": "Bacterial infection, unspecified (A49.9)",
+      "kode_diagnosa": [
+        "A79.9",
+        "A49.9",
+        "A49",
+        "A39.9",
+        "A69.9",
+        "A74.9",
+        "B95",
+        "B96"
+      ],
+      "prosedur": "",
+      "aspek_koding": "A49.9 Bacterial infection, unspesified\nBacteraemia NOS\n Pada kategori A49 eksklusi :\nbacterial agent as the cause of disease classified to\nother chapters (B95 - B96)\nchlamydial infection NOS (A74.9)\nmeningococcal infektion NOS (A39.9)\nrickettsial infection NOS (A79.9)\nspirochaetal infection NOS (A69.9)",
+      "perhatian_khusus": "Kode ini digunakan jika tidak dapat ditentukan",
+      "keywords": [
+        "A79.9",
+        "B96",
+        "A49.9",
+        "A49",
+        "A39.9",
+        "A69.9",
+        "A74.9",
+        "unspecified",
+        "B95",
+        "infection",
+        "bacterial"
+      ],
+      "kategori": "penyakit_infeksi_parasit"
+    },
+    {
+      "id": "case_0020",
+      "diagnosa": "Dengue Fever (A90)",
+      "kode_diagnosa": [
+        "A91",
+        "A90"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Exclude :\nDengue haemorrhagic fever (A91)",
+      "perhatian_khusus": "",
+      "keywords": [
+        "A91",
+        "dengue",
+        "fever",
+        "A90"
+      ],
+      "kategori": "penyakit_infeksi_parasit"
+    },
+    {
+      "id": "case_0021",
+      "diagnosa": "Dengue Haemorrhagic Fever (A91)",
+      "kode_diagnosa": [
+        "A91"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Dengue Haemorrhagic Fever menggunakan kode\nA91",
+      "perhatian_khusus": "Untuk kasus Dengue Shock Syndrome (DSS)",
+      "keywords": [
+        "fever",
+        "A91",
+        "dengue",
+        "haemorrhagic",
+        "kode"
+      ],
+      "kategori": "penyakit_infeksi_parasit"
+    },
+    {
+      "id": "case_0022",
+      "diagnosa": "Measles without complication (B05.9)",
+      "kode_diagnosa": [
+        "B05.9",
+        "B05.2",
+        "A81.1",
+        "J17.1"
+      ],
+      "prosedur": "",
+      "aspek_koding": "B05.9 Measles without complication\nMeasles NOS\n Perhatikan pada kategori\nIncludes : morbilli\n Excludes : subacute selerosing panencephalitis\n(A81.1)",
+      "perhatian_khusus": "Kondisi measles dapat disertai dengan komplikasi.",
+      "keywords": [
+        "measles",
+        "A81.1",
+        "J17.1",
+        "B05.2",
+        "without",
+        "B05.9",
+        "complication"
+      ],
+      "kategori": "penyakit_infeksi_parasit"
+    },
+    {
+      "id": "case_0023",
+      "diagnosa": "Diagnosa utama HIV dengan diagnosa sekunder TB",
+      "kode_diagnosa": [
+        "B20.0"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Menggunakan kode kombinasi B20.0 (HIV disease\nresulting in mycobacterial infection) sebagai\ndiagnosa utama. TB tidak dikoding sebagai\ndiagnosa sekunder.",
+      "perhatian_khusus": "",
+      "keywords": [
+        "dengan",
+        "sekunder",
+        "utama",
+        "B20.0",
+        "hiv",
+        "diagnosa",
+        "kode"
+      ],
+      "kategori": "penyakit_infeksi_parasit"
+    },
+    {
+      "id": "case_0024",
+      "diagnosa": "Kombinasi Diagnosis B20.0 HIV disease resulting\nin mycobacterial infection Diagnosis J15.9\nBacterial pneumonia, unspecified\nKode revisi B207 HIV disease resulting in multiple\ninfections",
+      "kode_diagnosa": [
+        "B20.7",
+        "B20.0",
+        "J15.9"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Sesuai Permenkes 76, sebagai diagnosis utama\nB20.7 dan kondisi lainnya dikoding sebagai\ndiagnosis sekunder.",
+      "perhatian_khusus": "",
+      "keywords": [
+        "revisi",
+        "infections",
+        "resulting",
+        "kombinasi",
+        "pneumonia",
+        "mycobacterial",
+        "J15.9",
+        "B20.7",
+        "B20.0",
+        "hiv",
+        "kondisi",
+        "diagnosis",
+        "unspecified",
+        "disease",
+        "kode",
+        "infection",
+        "bacterial",
+        "multiple"
+      ],
+      "kategori": "penyakit_infeksi_parasit"
+    },
+    {
+      "id": "case_0025",
+      "diagnosa": "Kombinasi Diagnosis B20.1 HIV disease resulting\nin other bacterial infections Diagnosis J15.2\nPneumonia due to staphylococcus\nKode revisi B20.7 HIV disease resulting in multiple\ninfections",
+      "kode_diagnosa": [
+        "B20.7",
+        "B20.1",
+        "J15.2"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Sesuai Permenkes 76 Tahun 2016,sebagai\ndiagnosa utama B20.7 dan kondisi lainnya\ndikoding sebagai diagnosa sekunder. Namun perlu\ndikonfirmasi yang dimaksud infeksi bakteri pada\nB20.1 bukan bakteri staphylococcus.",
+      "perhatian_khusus": "",
+      "keywords": [
+        "revisi",
+        "B20.1",
+        "resulting",
+        "kombinasi",
+        "bacterial",
+        "pneumonia",
+        "J15.2",
+        "B20.7",
+        "staphylococcus",
+        "hiv",
+        "kondisi",
+        "diagnosis",
+        "infections",
+        "disease",
+        "due",
+        "kode",
+        "other",
+        "multiple"
+      ],
+      "kategori": "penyakit_infeksi_parasit"
+    },
+    {
+      "id": "case_0026",
+      "diagnosa": "Koding kasus multiple infection pada pasien HIV\nmenggunakan kode B20.7 (HIV disease resulting\nin multiple infections) sebagai diagnosis primer\ndan kode diagnosis B23.8 (HIV disease resulting\nin other specified conditions) sebagai diagnosis\nsekunder",
+      "kode_diagnosa": [
+        "B20.7",
+        "B23.8"
+      ],
+      "prosedur": "",
+      "aspek_koding": "B23.8 digunakan untuk HIV disease resulting in\nother specified conditions yaitu kondisi spesifik\nlain yang terjadi akibat penyakit HIV.",
+      "perhatian_khusus": "Pastikan tercatat dalam resume medis ada",
+      "keywords": [
+        "pasien",
+        "primer",
+        "menggunakan",
+        "sebagai",
+        "conditions",
+        "kasus",
+        "resulting",
+        "B20.7",
+        "hiv",
+        "diagnosis",
+        "disease",
+        "multiple",
+        "pada",
+        "specified",
+        "kondisi",
+        "infections",
+        "kode",
+        "other",
+        "infection",
+        "koding",
+        "B23.8",
+        "sekunder",
+        "dan"
+      ],
+      "kategori": "penyakit_infeksi_parasit"
+    },
+    {
+      "id": "case_0027",
+      "diagnosa": "Viral Infection, unspecified (B34.9)",
+      "kode_diagnosa": [
+        "B25.9",
+        "B34.9",
+        "B00.9",
+        "B33.3",
+        "B97"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Kriteria eksklusi:\ncytomegaloviral disease NOS (B25.9)\nherpesvirus [herpes simplex] infection NOS\n(B00.9)\nretrovirus infection NOS (B33.3)\nViral agents as the cause of diseases classified to\nother chapters (B97.-)",
+      "perhatian_khusus": "Perhatikan untuk infeksi viral yang etiologinya",
+      "keywords": [
+        "viral",
+        "B25.9",
+        "unspecified",
+        "B34.9",
+        "B00.9",
+        "B33.3",
+        "infection",
+        "B97"
+      ],
+      "kategori": "penyakit_infeksi_parasit"
+    },
+    {
+      "id": "case_0028",
+      "diagnosa": "Tinea corporis (B35.4)",
+      "kode_diagnosa": [
+        "B35.4",
+        "J67",
+        "C84.0",
+        "B36"
+      ],
+      "prosedur": "",
+      "aspek_koding": "B35.4 Tinea corporis\nRingworn (kurap) badan\n Perhatikan include pada kategori : favus\ninfeksi karena spesies dari Epidemophyton\nMicrosporum dan Trichophyton tinea, beberapa\ntipe kecuali yang ada di B36,-\n Perhatikan ekslude pada sub bab :\nuntuk hypertensitivity disebabkan oleh debu\norganik (J67,-)\nmycosis fungoides (C84.0)",
+      "perhatian_khusus": "",
+      "keywords": [
+        "B35.4",
+        "C84.0",
+        "include",
+        "tinea",
+        "J67",
+        "B36",
+        "corporis"
+      ],
+      "kategori": "penyakit_infeksi_parasit"
+    },
+    {
+      "id": "case_0029",
+      "diagnosa": "Candidal stomatitis (B37.0)",
+      "kode_diagnosa": [
+        "P37.5",
+        "B37.0"
+      ],
+      "prosedur": "",
+      "aspek_koding": "B37.0 Candidal stomatitis\ntermasuk : oral thrush (Kandidiasis pada rongga\nmulut)",
+      "perhatian_khusus": "Termasuk kondisi Kandidosis, moniliasis.",
+      "keywords": [
+        "candidal",
+        "P37.5",
+        "stomatitis",
+        "B37.0"
+      ],
+      "kategori": "perinatal"
+    },
+    {
+      "id": "case_0030",
+      "diagnosa": "Candidiasis, unspecified (B37.9)",
+      "kode_diagnosa": [
+        "P37.5",
+        "B37.9"
+      ],
+      "prosedur": "",
+      "aspek_koding": "B37.9 Kandidiasis, tidak dijelaskan\nLokasi kandidiasis tidak dijelaskan.",
+      "perhatian_khusus": "Termasuk kondisi Kandidosis, moniliasis.",
+      "keywords": [
+        "unspecified",
+        "candidiasis",
+        "P37.5",
+        "B37.9"
+      ],
+      "kategori": "perinatal"
+    },
+    {
+      "id": "case_0031",
+      "diagnosa": "Other severe and complicated plasmodium\nfalciparum malaria (B50.8)",
+      "kode_diagnosa": [
+        "A07",
+        "B50.8",
+        "A06"
+      ],
+      "prosedur": "",
+      "aspek_koding": "B50.8 Malaria plasmodium berat dan komplikasi\nlainnya termasuk : infeksi plasmodium falsiparum\nyang bercampur dengan plasmodium lainnya\n Perhatikan eksklusi pada sub bab : Amoebiasis\n(A06,-)\npenyakit prozoa usus lainnya (A07,-)",
+      "perhatian_khusus": "",
+      "keywords": [
+        "severe",
+        "A07",
+        "malaria",
+        "plasmodium",
+        "and",
+        "complicated",
+        "A06",
+        "falciparum",
+        "B50.8",
+        "other"
+      ],
+      "kategori": "penyakit_infeksi_parasit"
+    },
+    {
+      "id": "case_0032",
+      "diagnosa": "Ancylostomiasis (B76.0)",
+      "kode_diagnosa": [
+        "B76.0"
+      ],
+      "prosedur": "-\n21\n• Penyakit-Penyakit Infeksi dan Parasit Tertentu",
+      "aspek_koding": "B76.0 Ancylostomiasis\nInfeksi Ancylostoma sp",
+      "perhatian_khusus": "Termasuk didalamnya : Uncinariasis",
+      "keywords": [
+        "B76.0",
+        "ancylostomiasis"
+      ],
+      "kategori": "penyakit_infeksi_parasit"
+    },
+    {
+      "id": "case_0033",
+      "diagnosa": "Ascariasis, unspecified (B77.9)",
+      "kode_diagnosa": [
+        "B77",
+        "B77.9"
+      ],
+      "prosedur": "",
+      "aspek_koding": "B77.9 Askariasis, tidak dijelaskan\nB77 Askariasis\nTermasuk : Askaridiasis",
+      "perhatian_khusus": "Infeksi cacing gelang",
+      "keywords": [
+        "ascariasis",
+        "unspecified",
+        "B77.9",
+        "B77"
+      ],
+      "kategori": "penyakit_infeksi_parasit"
+    },
+    {
+      "id": "case_0034",
+      "diagnosa": "Soft Tissue Tumor",
+      "kode_diagnosa": [],
+      "prosedur": "Eksisi (83.39)",
+      "aspek_koding": "Indikasi tindakan soft tissue tumor yang dilakukan\ndengan narkose umum dengan salah satu kriteria\ndibawah ini :\n1. Deep soft tissue tumor\n2. Meluas ke struktur vital\n3. Ukuran dimensi salah satu > 4 cm\n4. Keganasan\n5. Perlu rekonstruksi\n6. Lokasi: head & neck\n soft tissue tumor yang dilakukan dengan narkose\nlokal yaitu dengan salah satu kriteria :\n1. Superficial soft tissue tumor\n2. Lokal, tidak meluas ke struktur vital\n3. Ukuran dimensi salah satu < 4 cm\n4. Tidak perlu rekonstruksi\n Kriteria STT yang memerlukan rawat inap :\n1. Perlu tindakan dengan narkose umum\n2. Meluas ke struktur vital ( pembuluh darah, saraf\natau organ vital )\n3. Keganasan\n Kriteria soft tissue tumor sesuai lokasi yaitu :\n- Superficial : tumor terletak di atas dari fascia\ntanpa ada infiltrasi \n- Deep : tumor di bawah fascia /tumor\nmenginfiltrasi dan disertai dengan pemeriksaan\nimaging bila tersedia di fasilitas kesehatan.",
+      "perhatian_khusus": "Perhatikan keterangan Excludes dalam ICD 9CM :",
+      "keywords": [
+        "tissue",
+        "soft",
+        "tumor"
+      ],
+      "kategori": ""
+    },
+    {
+      "id": "case_0035",
+      "diagnosa": "Benign neoplasm (D10 - D36)",
+      "kode_diagnosa": [
+        "D10",
+        "D36"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Terdapat 5 jenis kode untuk neoplasma. Malignan\nprimer, malignan sekunder, in situ, benigna, dan\nuncertain or unknown behaviour (tidak diketahui).\nUntuk kode diagnosis dapat merujuk ke indeks\nalfabet Volume III ICD-10 Revisi Tahun 2010",
+      "perhatian_khusus": "Pastikan hasil pemeriksaan penunjang sesuai",
+      "keywords": [
+        "neoplasm",
+        "D36",
+        "D10",
+        "diagnosis",
+        "kode",
+        "benign"
+      ],
+      "kategori": "penyakit_darah_imun"
+    },
+    {
+      "id": "case_0036",
+      "diagnosa": "Diagnosa kombinasi untuk D14.3 dan J90 adalah\nC78.2",
+      "kode_diagnosa": [
+        "J90",
+        "C38",
+        "D14.3",
+        "C78.2"
+      ],
+      "prosedur": "",
+      "aspek_koding": "C78.2 bukan kode gabungan antara kode\nbenign neoplasm of bronchus lung (D14.3) dan\npleural effusion, not elsewhere classified (J90).\nC78.2 dikoding jika efusi pleura menunjukkan \nkeganasan yang tegak secara medis. Perhatikan\njuga diagnosis utama atau sekunder lain apakah\nsudah pernah ditegakkan primary cancer. Jika tidak\nada riwayat primary cancer, namun ditemukan\nkeganasan pada cairan pleura maka dikoding C38\n(konfirmasi DPJP).",
+      "perhatian_khusus": "Hanya jika hasil pemeriksaan cairan pleura terbukti",
+      "keywords": [
+        "C38",
+        "untuk",
+        "kombinasi",
+        "J90",
+        "D14.3",
+        "diagnosis",
+        "dan",
+        "C78.2",
+        "diagnosa",
+        "kode",
+        "adalah"
+      ],
+      "kategori": "sistem_respirasi"
+    },
+    {
+      "id": "case_0037",
+      "diagnosa": "Tumor mammae sinistra (D24)",
+      "kode_diagnosa": [
+        "D24"
+      ],
+      "prosedur": "Eksterpasi tumor mammae",
+      "aspek_koding": "Jika prosedur yang dilakukan pada payudara (kulit\natau subkutan) maka menggunakan kode 85.-\nJika prosedur tersebut adalah biopsi dengan jarum\nmaka menggunakan kode 85.11\nJika prosedur tersebut adalah biopsi dengan open\nbiopsi maka menggunakan kode 85.12\nJika prosedur tersebut adalah eksisi tumor atau\nbagian lain pada payudara maka menggunakan\nkode 85.2- (disesuaikan lokasi eksisi)",
+      "perhatian_khusus": "Pastikan prosedur yang dilakukan.",
+      "keywords": [
+        "sinistra",
+        "prosedur",
+        "mammae",
+        "D24",
+        "tumor",
+        "kode"
+      ],
+      "kategori": "penyakit_darah_imun"
+    },
+    {
+      "id": "case_0038",
+      "diagnosa": "Tumor rongga pelvis (D36.7+)\nAnemia (D63.0*)\nHypoalbumin (E88.0)\nISK (N39.0)",
+      "kode_diagnosa": [
+        "D36.7",
+        "D63.0",
+        "N39.0",
+        "E88.0"
+      ],
+      "prosedur": "Laparatomi exsisi",
+      "aspek_koding": "Jika prosedur eksisi pada rongga pelvis daerah\nperitonium maka dikode 54.4\nJika prosedur untuk biopsi maka dikode 54.23\nJika prosedur untuk eksisi pada rongga perlvis\ndaerah peritoneum dan biopsi maka menggunakan\nkode 54.4 (eksisi) dan 54.23 (biopsi)",
+      "perhatian_khusus": "Perhatikan hasil pemeriksaan penunjang struktur",
+      "keywords": [
+        "pelvis",
+        "isk",
+        "prosedur",
+        "N39.0",
+        "hypoalbumin",
+        "anemia",
+        "rongga",
+        "D36.7",
+        "tumor",
+        "D63.0",
+        "kode",
+        "E88.0"
+      ],
+      "kategori": "penyakit_darah_imun"
+    },
+    {
+      "id": "case_0039",
+      "diagnosa": "Penggunaan Kode C78.2 Secondary malignant\nneoplasm of pleura sebagai Diagnosa Sekunder\nuntuk Efusi Pleura (J90) untuk kasus keganasan\nbronchus dan paru",
+      "kode_diagnosa": [
+        "P28.8",
+        "J90",
+        "J94.0",
+        "J11.1",
+        "C78.2"
+      ],
+      "prosedur": "",
+      "aspek_koding": "ICD 10 2010\nEffusion\n- pleura, pleurisy, pleuritic,\npleuropericardial J90\n- - chylous, chyliform J94.0\n- - fetus or newborn P28.8\n- - influenzal (see also Influenza, with,\nrespiratory manifestations) J11.1\n- - malignant NEC C78.2",
+      "perhatian_khusus": "Kode C78.2 hanya jika hasil pemeriksaan cairan",
+      "keywords": [
+        "untuk",
+        "efusi",
+        "penggunaan",
+        "J90",
+        "J94.0",
+        "J11.1",
+        "keganasan",
+        "sebagai",
+        "kasus",
+        "secondary",
+        "pleura",
+        "P28.8",
+        "neoplasm",
+        "diagnosa",
+        "kode",
+        "paru",
+        "sekunder",
+        "bronchus",
+        "malignant",
+        "dan",
+        "C78.2"
+      ],
+      "kategori": "perinatal"
+    },
+    {
+      "id": "case_0040",
+      "diagnosa": "Tumor pedis (D16.3)",
+      "kode_diagnosa": [
+        "D16.3"
+      ],
+      "prosedur": "Eksterpasi besar tumor pedis",
+      "aspek_koding": "Untuk kode 77.68 (Local excision of lesion or\ntissue of bone ) merupakan kode untuk prosedur\npengangkatan lesi/tumor yang berasal dari jaringan\ntulang tarsal dan metatarsal.\nKode 77.48 (Biopsy of bone) merupakan kode\nuntuk prosedur eksisi dengan tujuan biopsi dari\ntulang tarsal dan metatarsal.",
+      "perhatian_khusus": "Pastikan di laporan operasi apakah dilakukan Eksisi",
+      "keywords": [
+        "prosedur",
+        "D16.3",
+        "pedis",
+        "tumor",
+        "kode"
+      ],
+      "kategori": "penyakit_darah_imun"
+    },
+    {
+      "id": "case_0041",
+      "diagnosa": "Beta Thallasemia (D56)",
+      "kode_diagnosa": [
+        "D56.8",
+        "D56.1",
+        "D56.2",
+        "P56",
+        "D56.4",
+        "D56",
+        "D56.0",
+        "D56.9",
+        "D56.3"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Thalasemia Mayor menggunakan kode D56.1\n D56.0 Alpha thalassaemia\nExcl.: hydrops fetalis due to haemolytic disease\n(P56.)\n D56.1 Beta thalassaemia, Cooley anaemia, Severe\nbeta thalassaemia, Thalassaemia: intermedia,\nmajor\nD56.2 Delta-beta thalassaemia\n D56.3 Thalassaemia trait\n D56.4 Hereditary persistence of fetal haemoglobin\n[HPFH]\n D56.8 Other thalassaemias\n D56.9 Thalassaemia, unspecified\nMediterranean anaemia (with other\nhaemoglobinopathy)\n Thalassaemia (minor)(mixed)(with other\nhaemoglobinopathy)",
+      "perhatian_khusus": "Jika pasien Thalasemia Mayor pada saat kontrol",
+      "keywords": [
+        "thallasemia",
+        "D56.1",
+        "D56.2",
+        "P56",
+        "beta",
+        "D56.4",
+        "D56",
+        "D56.0",
+        "D56.3",
+        "D56.9",
+        "kode",
+        "D56.8"
+      ],
+      "kategori": "penyakit_darah_imun"
+    },
+    {
+      "id": "case_0042",
+      "diagnosa": "Anemia (D64.9)",
+      "kode_diagnosa": [
+        "D62",
+        "D46.2",
+        "D46.4",
+        "D46.0",
+        "D63.8",
+        "D46.1",
+        "C92.0",
+        "D64.9",
+        "D63.0"
+      ],
+      "prosedur": "Transfusi, terapi ertiropoetin (pada kasus gagal\nginjal)",
+      "aspek_koding": "Kriteria ekslusi :\nrefractory anaemia: NOS (D46.4)\nwith excess of blasts (D46.2)\nwith excess of blasts -- with transformation\n(C92.0)\nwith sideroblasts (D46.1)\nwithout sideroblasts (D46.0)",
+      "perhatian_khusus": "Terdapat kode anemia khusus yang sesuai dengan",
+      "keywords": [
+        "D62",
+        "D46.2",
+        "D46.0",
+        "D46.4",
+        "D63.8",
+        "anemia",
+        "D46.1",
+        "C92.0",
+        "D64.9",
+        "D63.0"
+      ],
+      "kategori": "penyakit_darah_imun"
+    },
+    {
+      "id": "case_0043",
+      "diagnosa": "Coagulation Defects, purpura and other\nHaemorrhage conditions",
+      "kode_diagnosa": [
+        "D68.9",
+        "D65"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Disseminated intravascular coagulation (DIC)\nmenggunakan kode D65. Jika Coagulation defect,\nunspecified menggunakan kode D68.9",
+      "perhatian_khusus": "Pastikan diagnosis dan tata laksana sesuai dengan",
+      "keywords": [
+        "conditions",
+        "defects",
+        "coagulation",
+        "and",
+        "purpura",
+        "D68.9",
+        "D65",
+        "haemorrhage",
+        "kode",
+        "other"
+      ],
+      "kategori": "penyakit_darah_imun"
+    },
+    {
+      "id": "case_0044",
+      "diagnosa": "Thyrotoxicosis, unspecified (E05.9)",
+      "kode_diagnosa": [
+        "I43.8",
+        "P72.1",
+        "E06.2",
+        "E05",
+        "E05.9"
+      ],
+      "prosedur": "",
+      "aspek_koding": "E05.9 Tirotoksikosis, tidak jelas\nTermasuk didalamnya:\nHipertiroidisme NOS\nPenyakit jantung tiroid† (I43.8*)\n E05 Thyrotoxicosis (Hyperthyroidism)\nKecuali : Tiroiditis kronis dengan tirotoksikosis\nsementara E06.2\nTirotoksikosis neonatus P72.1",
+      "perhatian_khusus": "",
+      "keywords": [
+        "I43.8",
+        "P72.1",
+        "E06.2",
+        "E05",
+        "unspecified",
+        "thyrotoxicosis",
+        "E05.9"
+      ],
+      "kategori": "sistem_sirkulasi"
+    },
+    {
+      "id": "case_0045",
+      "diagnosa": "Diabetes mellitus (E10-14)",
+      "kode_diagnosa": [
+        "E11.2",
+        "P70.2",
+        "O24",
+        "E12",
+        "G59.0",
+        "G73.0",
+        "G99.0",
+        "M14.6",
+        "R81",
+        "E10",
+        "N08.3",
+        "H28.0",
+        "I79.2",
+        "R73.0",
+        "M14.2",
+        "E89.1",
+        "E14",
+        "E74.8",
+        "G63.2",
+        "H36.0"
+      ],
+      "prosedur": "",
+      "aspek_koding": ".0 With coma\nDiabetic:\ncoma with or without ketoacidosis\nhyperosmolar coma\nhypoglycaemic coma\nHyperglycaemic coma NOS\n .1 With ketoacidosis\nDiabetic:\nacidosis\nketoacidosis\nwithout mention of coma\n .2+ With renal complications\nBerlaku dagger asterisk yaitu E11.2† dan N08.3*\npada kondisi:\nDiabetic nephropathy (N08.3*)\nIntracapillary glomerulonephrosis (N08.3*)\nKimmelstiel-Wilson syndrome (N08.3*)\n .3+ With ophthalmic complications Diabetic:\ncataract (H28.0*)\nretinopathy (H36.0*)\n .4+ With neurological complications Diabetic:\namyotrophy (G73.0*)\nautonomic neuropathy (G99.0*)\nmononeuropathy (G59.0*)\npolyneuropathy (G63.2*)\nautonomic (G99.0*)\n .5 With peripheral circulatory complications\nDiabetic:\ngangrene\nperipheral angiopathy+ (I79.2*)\nulcer\n .6 With other specified complications\nDiabetic arthropathy+ (M14.2*)\nNeuropathic diabetic arthropathy+ (M14.6*)\n.7 With multiple complications\n.8 With unspecified complications\n.9 Without complications\nKriteria eksklusi:\ndiabetes mellitus (in):\n malnutrition-related (E12.-)\nneonatal (P70.2)\n pregnancy, childbirth and the puerperium\n(O24.-)\nglycosuria:\n NOS (R81)\n renal (E74.8)\n impaired glucose tolerance (R73.0)\n postsurgical hypoinsulinaemia (E89.1)”",
+      "perhatian_khusus": "Hypoglycemia pada diabetic coma menggunakan",
+      "keywords": [
+        "E11.2",
+        "P70.2",
+        "O24",
+        "E12",
+        "G59.0",
+        "G73.0",
+        "G99.0",
+        "M14.6",
+        "R81",
+        "E10",
+        "N08.3",
+        "kondisi",
+        "diabetes",
+        "H28.0",
+        "I79.2",
+        "R73.0",
+        "mellitus",
+        "M14.2",
+        "E89.1",
+        "E14",
+        "E74.8",
+        "G63.2",
+        "H36.0"
+      ],
+      "kategori": "endokrin_nutrisi_metabolik"
+    },
+    {
+      "id": "case_0046",
+      "diagnosa": "Kode kombinasi untuk diabetes melitus yang\ndisertai dengan gangguan pembuluh darah tepi,\nulkus pada kulit, atau gangren (E10-E14.5)",
+      "kode_diagnosa": [
+        "E10",
+        "E14",
+        "E14.5"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Sesuai kaidah ICD 10 pada sub bab Diabetes\n(E10-E14) menggunakan kode kombinasi diabetes\nwith peripheral circulatory complications (.5).\nGangguan pembuluh darah tepi, ulkus pada kulit,\natau gangren tidak dikode sebagai diagnosa\nsekunder.",
+      "perhatian_khusus": "",
+      "keywords": [
+        "untuk",
+        "atau",
+        "yang",
+        "melitus",
+        "gangguan",
+        "darah",
+        "disertai",
+        "pembuluh",
+        "tepi",
+        "pada",
+        "kombinasi",
+        "E10",
+        "diabetes",
+        "kode",
+        "kulit",
+        "dengan",
+        "E14",
+        "E14.5",
+        "gangren",
+        "ulkus"
+      ],
+      "kategori": "endokrin_nutrisi_metabolik"
+    },
+    {
+      "id": "case_0047",
+      "diagnosa": "DM dengan malnutrisi",
+      "kode_diagnosa": [
+        "E12",
+        "E46"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Sesuai dengan instruksi includes pada volume\nI poin malnutrition-related diabetes mellitus\n(E12) yang menyatakan kode ini sudah termasuk\ndidalamnya malnutrition-related diabetes\nmellitus (insulin-dependent dan non-insulindependent). Sehingga kode unspecified proteinenergy malnutrition (E46) tidak perlu di koding\nterpisah. Digit angka terakhir dari kode E12 tetap\ndisesuaikan dengan jenis komplikasinya sesuai\nyang tertera pada ICD.",
+      "perhatian_khusus": "Perhatikan skor gizi, pemeriksaan fisik dan",
+      "keywords": [
+        "E12",
+        "E46",
+        "dengan",
+        "malnutrisi",
+        "diabetes",
+        "kode"
+      ],
+      "kategori": "endokrin_nutrisi_metabolik"
+    },
+    {
+      "id": "case_0048",
+      "diagnosa": "DM dengan AKI",
+      "kode_diagnosa": [
+        "E11.2",
+        "N17",
+        "N19",
+        "E11"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Tidak ada instruksi includes / excludes secara\nlangsung dari sub bab renal failure\n(N17-N19) dengan NIDDM (E11) baik dari volume\nI maupun III. Kode DM with nephropathy dapat\ndigunakan untuk menjelaskan diabetic nephropathy\nyang sudah tegak secara medis. Namun diperlukan\nrekomendasi dari perhimpunan profesi mengenai\ndefinisi dan kriteria penegakan diagnosis diabetic\nnephropathy",
+      "perhatian_khusus": "Penggunaan kode kombinasi E11.2 yang",
+      "keywords": [
+        "E11.2",
+        "N17",
+        "dengan",
+        "aki",
+        "N19",
+        "diagnosis",
+        "E11",
+        "kode"
+      ],
+      "kategori": "endokrin_nutrisi_metabolik"
+    },
+    {
+      "id": "case_0049",
+      "diagnosa": "E11.5 (sebagai koding kombinasi untuk diagnosa\nDM dan Ulkus dekubitus)",
+      "kode_diagnosa": [
+        "L89",
+        "E11.5"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Jika ulkus dikoding bersamaan dengan diagnosa\nDM saja (hanya terdapat diagnosa DM) maka ulkus\nyang dikoding masuk dalam kode kombinasi E11.5\n(ulkus yang terjadi dipicu oleh faktor penyakit DM).",
+      "perhatian_khusus": "Ulkus dekubitus yang dipicu oleh faktor selain DM",
+      "keywords": [
+        "dekubitus",
+        "ulkus",
+        "untuk",
+        "kombinasi",
+        "L89",
+        "E11.5",
+        "dan",
+        "diagnosa",
+        "kode",
+        "koding",
+        "sebagai"
+      ],
+      "kategori": "kulit_subkutan"
+    },
+    {
+      "id": "case_0050",
+      "diagnosa": "Penggunaan kode kombinasi untuk diagnosa\nUnspecified diabetes mellitus with neurological\ncomplications (E14.4) dengan Diabetic\npolyneuropathy (G63.2), unspecified menjadi\nUnspecified diabetes mellitus with neurological\ncomplications (E14.4)",
+      "kode_diagnosa": [
+        "E14.4",
+        "E10",
+        "G62.9",
+        "E14",
+        "G63.2"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Pengkodean sistem dagger (†) dan asterisk (*)\nJika diagnosis utama yang ditegakkan dokter\ndalam ICD 10 menggunakan kode dagger dan\nasterisk maka yang dikode sebagai diagnosis \nutama adalah kode dagger, sedangkan kode\nasterisk sebagai diagnosis sekunder\n Polyneuropathy (peripheral) G62.9\n- in (due to)\n- - diabetes (see also E10-E14 with fourth\n character .4) E14.4† G63.2* (ICD 10 Vol. 3)",
+      "perhatian_khusus": "Diagnosa polineuropati diabetik dikode dagger",
+      "keywords": [
+        "polyneuropathy",
+        "complications",
+        "untuk",
+        "penggunaan",
+        "with",
+        "menjadi",
+        "neurological",
+        "diagnosis",
+        "diabetic",
+        "unspecified",
+        "kombinasi",
+        "E10",
+        "diabetes",
+        "diagnosa",
+        "kode",
+        "E14.4",
+        "mellitus",
+        "dengan",
+        "G62.9",
+        "E14",
+        "G63.2"
+      ],
+      "kategori": "endokrin_nutrisi_metabolik"
+    },
+    {
+      "id": "case_0051",
+      "diagnosa": "Penggunaan kode dagger dan asterix hanya di\nkode salah satu yang merupakan main condition\nsaja",
+      "kode_diagnosa": [],
+      "prosedur": "",
+      "aspek_koding": "Sesuai kaidah koding, kode asterisk dan dagger\ndikoding secara bersamaan. Kode dagger sebagai\ndiagnosa utama, dan asterisk sebagai diagnosa\nsekunder. Pada kondisi diagnosa utama adalah\nkode selain kode asterisk dagger, maka kedua kode\nasterisk dan dagger dikoding sebagai diagnosa\nsekunder. (Permenkes 76 tahun 2016)",
+      "perhatian_khusus": "dagger dan asteris adalah kode dual classification.",
+      "keywords": [
+        "dagger",
+        "yang",
+        "merupakan",
+        "salah",
+        "satu",
+        "main",
+        "condition",
+        "saja",
+        "penggunaan",
+        "kondisi",
+        "hanya",
+        "dan",
+        "asterix",
+        "kode"
+      ],
+      "kategori": ""
+    },
+    {
+      "id": "case_0052",
+      "diagnosa": "Penggunaan kode kombinasi untuk Non-insulindependent diabetes mellitus with renal comps\ndengan End-stage renal disease menjadi Noninsulin-dependent diabetes mellitus with renal\ncomps.",
+      "kode_diagnosa": [
+        "E11",
+        "N18"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Pada kaidah morbiditas ICD 10 (volume I dan III)\ntidak ada hubungan includes / excludes secara\nlangsung dari kode chronic kidney disease (N18)\ndengan NIDDM (E11). Kode DM with nephropathy\ndapat digunakan untuk menjelaskan diabetic\nnephropathy yang sudah tegak secara medis.",
+      "perhatian_khusus": "Hasil audit SPI tidak bersifat mutlak karena ada",
+      "keywords": [
+        "insulindependent",
+        "untuk",
+        "end",
+        "noninsulin",
+        "N18",
+        "penggunaan",
+        "non",
+        "with",
+        "menjadi",
+        "comps",
+        "renal",
+        "E11",
+        "disease",
+        "stage",
+        "dependent",
+        "kombinasi",
+        "diabetes",
+        "kode",
+        "mellitus",
+        "dengan"
+      ],
+      "kategori": "endokrin_nutrisi_metabolik"
+    },
+    {
+      "id": "case_0053",
+      "diagnosa": "Kode diagnosa diabetes mellitus dengan\nkomplikasi multipel dan AKI\nRS : Other specified diabetes mellitus with multiple\ncomplications (E13.7) dan Acute renal failure,\nunspecified (N17.9).",
+      "kode_diagnosa": [
+        "N17",
+        "E13.7",
+        "N17.9",
+        "E10",
+        "E14",
+        "N19"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Tidak ada instruksi includes / excludes secara\nlangsung dari sub bab renal failure\n(N17-N19) dengan Diabetes (E10 - E14) baik dari\nvolume I maupun III. Kode DM with nephropathy\ndapat digunakan untuk menjelaskan diabetic\nnephropathy yang sudah tegak secara medis.\nNamun diperlukan rekomendasi dari perhimpunan\nprofesi mengenai definisi dan kriteria penegakan\ndiagnosis diabetic nephropathy. Hasil audit SPI\ntidak mutlak karena ada AKI yang bukan karena\nDM, harus dilihat kasus per kasus dan perlu\nkonfirmasi DPJP.",
+      "perhatian_khusus": "Tidak ada kode kombinasi antara diagnosa diabetes",
+      "keywords": [
+        "complications",
+        "N17.9",
+        "aki",
+        "with",
+        "renal",
+        "N19",
+        "diagnosis",
+        "unspecified",
+        "multiple",
+        "acute",
+        "specified",
+        "komplikasi",
+        "E10",
+        "failure",
+        "multipel",
+        "diabetes",
+        "diagnosa",
+        "kode",
+        "other",
+        "mellitus",
+        "N17",
+        "E13.7",
+        "dengan",
+        "E14",
+        "dan"
+      ],
+      "kategori": "sistem_genitourinaria"
+    },
+    {
+      "id": "case_0054",
+      "diagnosa": "Lipoprotein deficiency (E78.6)",
+      "kode_diagnosa": [
+        "E78",
+        "E75.0",
+        "E75.3",
+        "E78.6"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Digunakan pada kondisi:\nAbetalipoproteinamia\nHigh-density lipoprotein deficiency\nHypoalphalipoproteinaemia\nHypobetalipoproteinaemia (familial)\nLecithin cholesterol acyltransferase deficiency\nTangier disease\n Perhatikan pada kategori E78\nExcludes : Sphingolipidosis (E75.0-E75.3)",
+      "perhatian_khusus": "",
+      "keywords": [
+        "lipoprotein",
+        "E78",
+        "E78.6",
+        "deficiency",
+        "E75.0",
+        "E75.3",
+        "kondisi"
+      ],
+      "kategori": "endokrin_nutrisi_metabolik"
+    },
+    {
+      "id": "case_0055",
+      "diagnosa": "Other disorders of lipoprotein metabolism (E78.8)",
+      "kode_diagnosa": [
+        "E78",
+        "E78.8",
+        "E75.0",
+        "E75.3"
+      ],
+      "prosedur": "",
+      "aspek_koding": "E78.8 Other disorders of lipoprotein metabolism\n Perhatikan pada kategori E78\nExcludes : sphingolipidosis (E75.0-E75.3)",
+      "perhatian_khusus": "",
+      "keywords": [
+        "E78",
+        "lipoprotein",
+        "E78.8",
+        "E75.0",
+        "E75.3",
+        "metabolism",
+        "disorders",
+        "other"
+      ],
+      "kategori": "endokrin_nutrisi_metabolik"
+    },
+    {
+      "id": "case_0056",
+      "diagnosa": "Schizoprenia (F20.0)",
+      "kode_diagnosa": [
+        "F20.0",
+        "F22.8",
+        "F22.0"
+      ],
+      "prosedur": "",
+      "aspek_koding": "F20.0 Paranoid schizopherenia\nExcludes :\nInvolutional paranoid state (F22.8)\nparanoid (F22.0)",
+      "perhatian_khusus": "Terdapat variasi kode dan penjelasan untuk",
+      "keywords": [
+        "F20.0",
+        "F22.8",
+        "F22.0",
+        "schizoprenia"
+      ],
+      "kategori": "gangguan_mental_perilaku"
+    },
+    {
+      "id": "case_0057",
+      "diagnosa": "Hipertensi (I10)",
+      "kode_diagnosa": [
+        "I10",
+        "P29.2",
+        "O16",
+        "O11",
+        "I69",
+        "O13",
+        "I27.0",
+        "I20",
+        "H35.0",
+        "I11.0",
+        "O10",
+        "I25",
+        "I60"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Exclude pada sub bab:\ncomplicating pregnancy, childbirth and the\npuerperium (O10-O11, O13-O16)\ninvolving coronary vessels (I20-I25)\nneonatal hypertension (P29.2)\npulmonary hypertension (I27.0)\n Include pada kategori :\nHigh blood pressure\nHypertension (arterial)(benign)(essential)\n(malignant)(primary)(systemic)\n Exclude pada kategori :\ninvolving vessels of:\nbrain (I60-I69)\neye (H35.0)",
+      "perhatian_khusus": "Perhatikan kode kombinasi pada kasus-kasus yang",
+      "keywords": [
+        "I10",
+        "P29.2",
+        "O16",
+        "O11",
+        "I69",
+        "O13",
+        "I27.0",
+        "I20",
+        "include",
+        "H35.0",
+        "I11.0",
+        "O10",
+        "I25",
+        "hipertensi",
+        "I60"
+      ],
+      "kategori": "sistem_sirkulasi"
+    },
+    {
+      "id": "case_0058",
+      "diagnosa": "Penggunaan kode kombinasi untuk Essential\n(primary) hypertension (I10) dengan Acute renal\nfailure, unspecified menjadi Hypertensive renal \ndisease with renal failure",
+      "kode_diagnosa": [
+        "I10",
+        "N26",
+        "N17.9",
+        "N00",
+        "N18",
+        "N19",
+        "I12",
+        "N07"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Sesuai dengan instruksi includes pada volume\nI sub bab hypertensive renal disease (I12) yang\nmenyatakan hanya any condition in N00–N07,\nN18.-, N19 or N26 due to hypertension dan juga\ntidak ada instruksi lain di volume III. Sehingga\npenggunaan kode acute renal failure, unspecified\n(N17.9) tidak bisa digabung dengan essential\n(primary) hypertension (I10) menjadi I12.",
+      "perhatian_khusus": "Diperlukan rekomendasi dari organisasi profesi",
+      "keywords": [
+        "N26",
+        "N17.9",
+        "untuk",
+        "N18",
+        "penggunaan",
+        "with",
+        "I12",
+        "menjadi",
+        "renal",
+        "hypertension",
+        "N19",
+        "hypertensive",
+        "unspecified",
+        "disease",
+        "acute",
+        "kombinasi",
+        "primary",
+        "N00",
+        "failure",
+        "N07",
+        "kode",
+        "essential",
+        "I10",
+        "dengan"
+      ],
+      "kategori": "sistem_sirkulasi"
+    },
+    {
+      "id": "case_0059",
+      "diagnosa": "Diagnosa utama Hipertensi dengan gagal ginjal\ndisertai atau tidak disertai gagal jantung.\nDiagnosa sekunder : edem paru",
+      "kode_diagnosa": [
+        "I12.0",
+        "J81",
+        "I13.2"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Sesuai kaidah koding, Hipertensi dengan gagal\nginjal yang disertai gagal jantung, maka udem paru\ntidak dikoding terpisah dan dikode I13.2.\nJika diagnosis utama hipertensi dengan gagal\nginjal maka dikode I12.0 dan Udem paru (J81)\ndikode tersendiri. Walaupun secara klinis, udem\nparu merupakan bagian dari tanda dan gejala dari\nacute on Chronic renal failure (overload syndrome)",
+      "perhatian_khusus": "Kriteria Pulmonary Oedema: gejala klinis sesak,",
+      "keywords": [
+        "ginjal",
+        "jantung",
+        "I12.0",
+        "J81",
+        "edem",
+        "tidak",
+        "dengan",
+        "sekunder",
+        "utama",
+        "disertai",
+        "atau",
+        "I13.2",
+        "diagnosis",
+        "hipertensi",
+        "diagnosa",
+        "gagal",
+        "paru"
+      ],
+      "kategori": "sistem_sirkulasi"
+    },
+    {
+      "id": "case_0060",
+      "diagnosa": "HHD with CHF (I11.0)",
+      "kode_diagnosa": [
+        "O75.4",
+        "O10",
+        "O00",
+        "P29.2",
+        "I51.4",
+        "P29.0",
+        "O07",
+        "I25",
+        "I13",
+        "I97.1",
+        "I50",
+        "O08.8",
+        "O11",
+        "I11.0",
+        "O16",
+        "O13",
+        "I27.0",
+        "I20",
+        "I51.9"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Kriteria ekslusi:\ncomplicating pregnancy, childbirth and the\npuerperium (O10-O11, O13-O16)\ninvolving coronary vessels (I20-I25)\nneonatal hypertension (P29.2)\npulmonary hypertension (I27.0)\n Kriteria eksklusi kategori I50:\nKomplikasi dari aborsi atau kehamilan ektopic/\nmola (O00-O07, O08.8) ;\nprosedur dan operasi kebidanan (O75.4)\nakibat hypertension (I11.0)\ndengan renal disease (I13.-)\nSetelah operasi cardiac atau akibat protesa cardiac\n(I97.1)\nneonatal cardiac failure (P29.0)\n Kriteria Inklusi:\nKondisi pada I50.-, I51.4-I51.9 yang disebabkan\noleh hipertensi.",
+      "perhatian_khusus": "",
+      "keywords": [
+        "O75.4",
+        "with",
+        "O10",
+        "O00",
+        "P29.2",
+        "I51.4",
+        "P29.0",
+        "O07",
+        "I25",
+        "I13",
+        "I97.1",
+        "I50",
+        "O08.8",
+        "O11",
+        "I11.0",
+        "kondisi",
+        "prosedur",
+        "O16",
+        "O13",
+        "I27.0",
+        "I20",
+        "I51.9",
+        "hipertensi",
+        "chf",
+        "hhd"
+      ],
+      "kategori": "kehamilan_persalinan"
+    },
+    {
+      "id": "case_0061",
+      "diagnosa": "Hypertensive heart disease without (congestive)\nheart failure (I11.9)",
+      "kode_diagnosa": [
+        "I51.4",
+        "I51.9",
+        "I11",
+        "I11.9",
+        "I50"
+      ],
+      "prosedur": "",
+      "aspek_koding": "I11.9 Hypertensi heart disease without\n(congestive) heart failure\nHypertensi heart disease NOS\n Perhatikan pada kategori I11 includes :\nany condition in I50,-, I51.4-I51.9 due to\nhypertensi",
+      "perhatian_khusus": "",
+      "keywords": [
+        "I11.9",
+        "I51.4",
+        "I51.9",
+        "failure",
+        "heart",
+        "I11",
+        "without",
+        "hypertensive",
+        "disease",
+        "I50",
+        "congestive"
+      ],
+      "kategori": "sistem_sirkulasi"
+    },
+    {
+      "id": "case_0062",
+      "diagnosa": "Hypertensive renal disease with renal failure\n(I12.0)",
+      "kode_diagnosa": [
+        "I12.0",
+        "I10",
+        "P29.2",
+        "N26",
+        "O16",
+        "O11",
+        "O13",
+        "I27.0",
+        "N00",
+        "I20",
+        "N18",
+        "I15",
+        "N19",
+        "I12",
+        "O10",
+        "I25",
+        "N07"
+      ],
+      "prosedur": "",
+      "aspek_koding": "I12.0 Hypertensi renal disease with renal failure\nHypertensi renal failure\n Perhatikan pada kategori I12 includes :\nany condition in N00-N07, N18,-,N19 or N26 due\nto hypertensi\narteriosclerosis of kidney\narteriosclerotic nephritis (chronic) (interstitial)\nhypertensive nephropathy\nnephrosclerosis\nexcludes : secondary hypertension I15,-\n Exclude pada sub bab I10-I15:\ncomplicating pregnancy, childbirth and the\npuerperium (O10-O11, O13-O16)\ninvolving coronary vessels (I20-I25)\nneonatal hypertension (P29.2)\npulmonary hypertension (I27.0)",
+      "perhatian_khusus": "",
+      "keywords": [
+        "N26",
+        "N18",
+        "I15",
+        "with",
+        "I12",
+        "O10",
+        "I12.0",
+        "P29.2",
+        "renal",
+        "N19",
+        "I25",
+        "hypertensive",
+        "disease",
+        "O11",
+        "N00",
+        "failure",
+        "N07",
+        "I10",
+        "O16",
+        "O13",
+        "I27.0",
+        "I20"
+      ],
+      "kategori": "sistem_sirkulasi"
+    },
+    {
+      "id": "case_0063",
+      "diagnosa": "Kombinasi diagnosis Primary pulmonary\nhypertension (I27.0) dengan Heart\nfailure, unspecified (I50.9) menjadi kode\nI12;I12.0;I13;I13.1;I13.2; atau I13.9",
+      "kode_diagnosa": [
+        "I12.0",
+        "I50.9",
+        "I13.1",
+        "I27.0",
+        "I13.9",
+        "I13.2",
+        "I12",
+        "I13"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Tidak ada instruksi include dan exclude pada ICD\n10 tahun 2010. Sehingga kode I27.0 dan I50.9\ndikoding terpisah.",
+      "perhatian_khusus": "Pastikan tatalaksana dilakukan untuk kedua",
+      "keywords": [
+        "I50.9",
+        "I13.1",
+        "atau",
+        "I12",
+        "menjadi",
+        "I12.0",
+        "I13.9",
+        "include",
+        "hypertension",
+        "I13.2",
+        "diagnosis",
+        "I13",
+        "unspecified",
+        "kombinasi",
+        "primary",
+        "failure",
+        "heart",
+        "pulmonary",
+        "kode",
+        "dengan",
+        "I27.0"
+      ],
+      "kategori": "sistem_sirkulasi"
+    },
+    {
+      "id": "case_0064",
+      "diagnosa": "Cardiomyopathy in other diseases classified\nelsewhere (I43.8)",
+      "kode_diagnosa": [
+        "I43.8",
+        "E05.9",
+        "M10.0"
+      ],
+      "prosedur": "",
+      "aspek_koding": "I43.8 Cardiomyopathy in other diseases classified\nelsewhere* merupakan kode asterisk dengan kode\ndagger :\nGouty tophi of heart ( M10.0† )\nThyrotoxic heart disease ( E05.9†)",
+      "perhatian_khusus": "",
+      "keywords": [
+        "I43.8",
+        "diseases",
+        "classified",
+        "cardiomyopathy",
+        "M10.0",
+        "kode",
+        "elsewhere",
+        "other",
+        "E05.9"
+      ],
+      "kategori": "sistem_sirkulasi"
+    },
+    {
+      "id": "case_0065",
+      "diagnosa": "Atrioventricular block, complete (I44.2)",
+      "kode_diagnosa": [
+        "I44.2"
+      ],
+      "prosedur": "",
+      "aspek_koding": "I44.2 Atrioventricular block, complete\nTermasuk kondisi:\n Complete heart block NOS\n Third-degree block",
+      "perhatian_khusus": "Pastikan penegakkan diagnosa pada hasil EKG",
+      "keywords": [
+        "atrioventricular",
+        "complete",
+        "kondisi",
+        "I44.2",
+        "block"
+      ],
+      "kategori": "sistem_sirkulasi"
+    },
+    {
+      "id": "case_0066",
+      "diagnosa": "Cardiac arrest, unspecified (I46.9)",
+      "kode_diagnosa": [
+        "I46",
+        "R57.0",
+        "O07",
+        "I46.9",
+        "O00",
+        "O08.8"
+      ],
+      "prosedur": "",
+      "aspek_koding": "I46.9 Cardiac arrest, unspecified\n Perhatikan pada sub bab :\nI46 Cardiac arrest\nKecuali : cardiogeneic shock (R57.0)\ncomplicating :\n- abortion or molar pregnency (O00-O07, O08.8)\n- obstetric surgenry and procedures (O075.4)",
+      "perhatian_khusus": "1. Cardiac arrest dapat terjadi pada semua kasus",
+      "keywords": [
+        "I46",
+        "R57.0",
+        "O07",
+        "I46.9",
+        "O00",
+        "unspecified",
+        "cardiac",
+        "O08.8",
+        "arrest"
+      ],
+      "kategori": "sistem_sirkulasi"
+    },
+    {
+      "id": "case_0067",
+      "diagnosa": "Supraventricular tachycardia (I47.1)",
+      "kode_diagnosa": [
+        "I47",
+        "O75.4",
+        "O07",
+        "O00",
+        "I47.1",
+        "O08.8",
+        "R00.0"
+      ],
+      "prosedur": "",
+      "aspek_koding": "I47.1 Supraventricular tachycardia\nParoxysmal tachycardia:\n· atrial\n· atrioventricular [AV]\n· junctional\n· nodal\n Perhatikan pada sub bab\nI47 Paroxysmal tachycardia\nKecuali : Komplikasi :\n- abortion orectopic or molar pregnancy (O00-\nO07,O08.8)\n- obstertic surgery and procedures (O75.4)\ntachycardia\n- NOS (R00.0)\n- sinoauricular NOS (R00.0)\n- sinus (sinusal) NOS (R00.0)",
+      "perhatian_khusus": "",
+      "keywords": [
+        "O00",
+        "I47",
+        "O75.4",
+        "O07",
+        "supraventricular",
+        "I47.1",
+        "tachycardia",
+        "O08.8",
+        "R00.0"
+      ],
+      "kategori": "sistem_sirkulasi"
+    },
+    {
+      "id": "case_0068",
+      "diagnosa": "Ventricular tachycardia (I47.2)",
+      "kode_diagnosa": [
+        "I47",
+        "I47.2",
+        "O75.4",
+        "O07",
+        "O00",
+        "O08.8",
+        "R00.0"
+      ],
+      "prosedur": "",
+      "aspek_koding": "I47.2 Ventricular tachycardia\n Perhatikan pada sub bab\nI47 Paroxysmal tachycardia\nKecuali : Komplikasi : - abortion orectopic or molar \npregnancy (O00-O07,O08.8)\n- obstertic surgery and procedures (O75.4)\ntachycardia\n - NOS (R00.0)\n- sinoauricular NOS (R00.0)\n- sinus (sinusal) NOS (R00.0)",
+      "perhatian_khusus": "",
+      "keywords": [
+        "I47",
+        "ventricular",
+        "I47.2",
+        "O75.4",
+        "O07",
+        "O00",
+        "tachycardia",
+        "O08.8",
+        "R00.0"
+      ],
+      "kategori": "sistem_sirkulasi"
+    },
+    {
+      "id": "case_0069",
+      "diagnosa": "Congestive Heart Failure (I50.0)",
+      "kode_diagnosa": [
+        "I13",
+        "P29.0",
+        "O75.4",
+        "O07",
+        "I11.0",
+        "I50.0",
+        "I50.1",
+        "O00",
+        "I97.1",
+        "O08.8"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Include:\n- Congestive heart disease\n- Right ventricular failure (secondary to left heart\nfailure)\n Exclude kategori:\nHeart Failure dengan komplikasi:\nabortion or ectopic or molar pregnancy (O00-O07,\nO08.8)\nobstetric surgery and procedures (O75.4)\ndue to hypertension (I11.0)\nwith renal disease (I13.-)\nfollowing cardiac surgery or due to presence of\ncardiac prosthesis (I97.1)\nneonatal cardiac failure (P29.0)",
+      "perhatian_khusus": "Apabila sudah ditemukan tanda-tanda edema paru",
+      "keywords": [
+        "O00",
+        "include",
+        "P29.0",
+        "heart",
+        "failure",
+        "O75.4",
+        "O07",
+        "I11.0",
+        "I50.0",
+        "I50.1",
+        "I13",
+        "I97.1",
+        "O08.8",
+        "congestive"
+      ],
+      "kategori": "sistem_sirkulasi"
+    },
+    {
+      "id": "case_0070",
+      "diagnosa": "Left ventricular failure (I50.1)",
+      "kode_diagnosa": [
+        "I13",
+        "P29.0",
+        "O75.4",
+        "O07",
+        "I11.0",
+        "I50.1",
+        "O00",
+        "I97.1",
+        "O08.8"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Include:\nCardiac asthma\nLeft heart failure\nOedema of lung,- with mention of heart disease\nNOS or heart failure\nPulmonary oedema,-with mention of heart disease\nNOS or heart failure\nExclude kategori:\nHeart Failure dengan komplikasi:\nabortion or ectopic or molar pregnancy (O00-O07,\nO08.8)\nobstetric surgery and procedures (O75.4)\ndue to hypertension (I11.0)\nwith renal disease (I13.-)\nfollowing cardiac surgery or due to presence of\ncardiac prosthesis (I97.1)\nneonatal cardiac failure (P29.0)",
+      "perhatian_khusus": "",
+      "keywords": [
+        "O00",
+        "ventricular",
+        "include",
+        "P29.0",
+        "failure",
+        "O75.4",
+        "left",
+        "O07",
+        "I11.0",
+        "I50.1",
+        "I13",
+        "I97.1",
+        "O08.8"
+      ],
+      "kategori": "sistem_sirkulasi"
+    },
+    {
+      "id": "case_0071",
+      "diagnosa": "intracerebral haemorrhage, unspecified (I61.9)",
+      "kode_diagnosa": [
+        "I10",
+        "S06",
+        "I69.1",
+        "I61",
+        "I15",
+        "I61.9"
+      ],
+      "prosedur": "",
+      "aspek_koding": "I61.9 Intracerebral haemorrhage, unspecified\n Includes : with mention of hypertension\n(conditions in I10 and I15,-)\nUse additional code, if desired, to identify presence\nof hypertension.\n Perhatikan pada kategori I61\nExcludes : sequelae of intracerebral haemorrhage\n(I69.1)\n Kondisi perdarahan otak yang disebabkan oleh\ntrauma eksternal gunakan kode : traumatic\nintracranial haemorrhage (S06,-)",
+      "perhatian_khusus": "",
+      "keywords": [
+        "I10",
+        "S06",
+        "I69.1",
+        "intracerebral",
+        "I61",
+        "I15",
+        "kondisi",
+        "I61.9",
+        "unspecified",
+        "haemorrhage",
+        "kode"
+      ],
+      "kategori": "sistem_sirkulasi"
+    },
+    {
+      "id": "case_0072",
+      "diagnosa": "Cerebral Infarction (I63)",
+      "kode_diagnosa": [
+        "I10",
+        "I69.3",
+        "S06",
+        "I63",
+        "I69",
+        "I15",
+        "I60",
+        "G45",
+        "F01"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Kriteria inklusi kategori I63:\nOklusi dan stenosis arteri cerebral dan precerebla\nyang menyebabkan cerebral infarction.\n Kriteria eksklusi kategori I63:\nsequelae of cerebral infarction (I69.3)\n Kriteria Inklusi Sub bab I60-I69 :\nJika disertai hipertensi (conditions in I10 and I15.-)\ndapat menggunakan kode tambahan (Use\nadditional code, if desired, to identify presence of\nhypertension.)\n Kriteria eksklusi Sub Bab I60-I69 :\ntransient cerebral ischaemic attacks and related\nsyndromes (G45.-)\ntraumatic intracranial haemorrhage (S06.)\nvascular dementia (F01.-)",
+      "perhatian_khusus": "Hasil imaging (Contoh CT scan) diperhatikan untuk",
+      "keywords": [
+        "I10",
+        "I69.3",
+        "cerebral",
+        "S06",
+        "I63",
+        "I69",
+        "infarction",
+        "I15",
+        "hipertensi",
+        "I60",
+        "G45",
+        "kode",
+        "F01"
+      ],
+      "kategori": "sistem_sirkulasi"
+    },
+    {
+      "id": "case_0073",
+      "diagnosa": "Stroke, not specified as haemorrhage or infarction\n(I64)",
+      "kode_diagnosa": [
+        "I10",
+        "S06",
+        "I62",
+        "I69",
+        "I64",
+        "I15",
+        "I61",
+        "I60",
+        "G45",
+        "F01"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Kriteria Inklusi Sub bab I60-I69 :\nJika disertai hipertensi (conditions in I10 and I15.-)\ndapat menggunakan kode tambahan (Use\nadditional code, if desired, to identify presence of\nhypertension.)\n Kriteria eksklusi Sub Bab I60-I69 :\ntransient cerebral ischaemic attacks and related\nsyndromes (G45.-)\ntraumatic intracranial haemorrhage (S06.)\nvascular dementia (F01.-)",
+      "perhatian_khusus": "Kode ini digunakan hanya untuk kasus stroke",
+      "keywords": [
+        "I10",
+        "S06",
+        "I62",
+        "specified",
+        "infarction",
+        "I69",
+        "I64",
+        "not",
+        "I15",
+        "I61",
+        "I60",
+        "hipertensi",
+        "haemorrhage",
+        "stroke",
+        "G45",
+        "kode",
+        "F01"
+      ],
+      "kategori": "sistem_sirkulasi"
+    },
+    {
+      "id": "case_0074",
+      "diagnosa": "Acute pharingitis (J02.9)",
+      "kode_diagnosa": [
+        "J36",
+        "J02.9",
+        "J39.1",
+        "J31.2",
+        "J02",
+        "J39.0",
+        "J06.0"
+      ],
+      "prosedur": "",
+      "aspek_koding": "J02.9 Acute pharyngitis, unspecified\nPharyngitis (acute):\n- NOS\n- gangrenius\n- infective NOS\n- suppurative\n- ulcerative\nSore throat (acute) NOS\n Perhatikan pada kategori J02\ninclude : acute sore throat\nekslude : abscess :\n- peritonsillar J36\n- pharyngeal J39.1\n- retropharyngeal J39.0\nacute laryngopharyngitis J06.0\nchronic pharyngitis J31.2",
+      "perhatian_khusus": "",
+      "keywords": [
+        "J36",
+        "J02.9",
+        "acute",
+        "J39.1",
+        "J31.2",
+        "include",
+        "J02",
+        "J39.0",
+        "pharingitis",
+        "J06.0"
+      ],
+      "kategori": "sistem_respirasi"
+    },
+    {
+      "id": "case_0075",
+      "diagnosa": "Acute upper respiratory infection, unspecified\n(J06.9)",
+      "kode_diagnosa": [
+        "J09",
+        "J10.1",
+        "J00",
+        "J22",
+        "J06.9",
+        "J11.1",
+        "J44.1",
+        "J06"
+      ],
+      "prosedur": "",
+      "aspek_koding": "J06.9 Acute upper respiratory infection,\nunspecified\ntermasuk didalamnya :\n Upper respiratory :\n - disease, acute\n - infection NOS\n Eksklusi : acute respiratory infection NOS (J22)\ninfluenza virus :\n- identified (J09, J10.1)\n- not identified (J11.1)",
+      "perhatian_khusus": "Perhatikan pada sub bab J00-J06",
+      "keywords": [
+        "J09",
+        "acute",
+        "J10.1",
+        "upper",
+        "J00",
+        "J22",
+        "J06",
+        "J06.9",
+        "respiratory",
+        "J11.1",
+        "unspecified",
+        "J44.1",
+        "infection"
+      ],
+      "kategori": "sistem_respirasi"
+    },
+    {
+      "id": "case_0076",
+      "diagnosa": "Pneumonia, unspecified (J18.-)",
+      "kode_diagnosa": [
+        "P23.9",
+        "J69.0",
+        "J70",
+        "J44.0",
+        "J85.1",
+        "O74.0",
+        "J18",
+        "J67",
+        "J69",
+        "J84.9",
+        "J84.1",
+        "J12",
+        "O29.0",
+        "J17",
+        "O89.0",
+        "J70.4",
+        "J69.1",
+        "P24.9",
+        "J70.2"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Kode ini hanya untuk kasus pneumonia yang tidak\nspesifik organisme penyebabnya.\n Kriteria eksklusi:\nAbscess of lung with pneumonia (J85.1)\nDrug-induced interstitial lung disorders\n(J70.2-J70.4)\nPneumonitis, due to external agents (J67-J70)\nPneumonia: aspiration (due to):\nNOS (J69.0)\n anaesthesia during:\n labour and delivery (O74.0)\n pregnancy (O29.0)\n puerperium (O89.0)\n neonatal (P24.9)\n solids and liquids (J69.-)\n congenital (P23.9)\n interstitial NOS (J84.9)\n lipid (J69.1)\n usual interstitial (J84.1)\n Kode kombinasi untuk bronchopneumonia/\nPneumonia dengan PPOK : J44.0",
+      "perhatian_khusus": "Kode pneumonia dengan organisme penyebab",
+      "keywords": [
+        "P23.9",
+        "J69.0",
+        "J70",
+        "J44.0",
+        "J85.1",
+        "O74.0",
+        "J18",
+        "pneumonia",
+        "J67",
+        "J69",
+        "unspecified",
+        "J84.9",
+        "J84.1",
+        "J12",
+        "O29.0",
+        "kode",
+        "J17",
+        "O89.0",
+        "J70.4",
+        "J69.1",
+        "P24.9",
+        "J70.2"
+      ],
+      "kategori": "perinatal"
+    },
+    {
+      "id": "case_0077",
+      "diagnosa": "Pneumonia dengan PPOK J18.9 dan J44.0",
+      "kode_diagnosa": [
+        "J18.9",
+        "J44.0"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Lebih tepat menggunakan kode kombinasi J44.0.\nSesuai dengan instruksi pada volume III yang\nmenyatakan disease - lung - obstructive (chronic)\n- with lower respiratory infection\n(except influenza) mengarah pada kode chronic\nobstructive pulmonary disease with acute lower\nrespiratory infection (J44.0).",
+      "perhatian_khusus": "Kode J44.0 sudah menggambarkan PPOK dengan",
+      "keywords": [
+        "ppok",
+        "dengan",
+        "pneumonia",
+        "J44.0",
+        "J18.9",
+        "dan",
+        "kode"
+      ],
+      "kategori": "sistem_respirasi"
+    },
+    {
+      "id": "case_0078",
+      "diagnosa": "Pneumonia dengan PPOK Eksaserbasi",
+      "kode_diagnosa": [
+        "J44.9",
+        "J98.4",
+        "J18.9",
+        "J84.8",
+        "J84.9",
+        "J44.1"
+      ],
+      "prosedur": "",
+      "aspek_koding": "ICD10 2010 Volume 3\n Disease, diseased------continued\n- lung J98.4\n- - interstitial J84.9\n- - - specified NEC J84.8\n- - obstructive (chronic) J44.9\n- - - with\n- - - - exacerbation NEC (acute) J44.1\n Tidak ada instruksi includes / excludes secara\nlangsung pada kode chronic obstructive pulmonary \ndisease with acute exacerbation, unspecified\n(J44.1) dengan pneumonia, unspecified (J18.9).\nTidak ditemukan juga kaidah kode kombinasi\nantara J44.1 dan J18.9.\nBerdasarkan pembahasan tim tarif Kemenkes\ndengan Persatuan profesi, keadaan akut ekserbasi\ndan pneumonia merupakan dua keadaan yang\nberbeda dan membutuhkan tata laksana tersendiri,\nsehingga dikoding terpisah.",
+      "perhatian_khusus": "Tidak ada kode kombinasi antara kode diagnosa",
+      "keywords": [
+        "ppok",
+        "J44.9",
+        "J98.4",
+        "dengan",
+        "pneumonia",
+        "J18.9",
+        "J84.8",
+        "eksaserbasi",
+        "J84.9",
+        "kode",
+        "J44.1"
+      ],
+      "kategori": "sistem_respirasi"
+    },
+    {
+      "id": "case_0079",
+      "diagnosa": "Penggunaan kode kombinasi untuk Pneumonia,\nunspecified dengan Septicaemia, unspecified\nmenjadi Septicaemia due to Streptococcus\npneumoniae",
+      "kode_diagnosa": [
+        "J18.9",
+        "A41.9",
+        "A40.3"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Tidak ada instruksi includes / excludes secara\nlangsung dari kode pneumonia, unspecified\n(J18.9) dengan septicaemia, unspecified (A41.9)\nbaik dari volume I maupun III.",
+      "perhatian_khusus": "Kode septicaemia due to streptococcus",
+      "keywords": [
+        "pneumoniae",
+        "streptococcus",
+        "untuk",
+        "kombinasi",
+        "dengan",
+        "pneumonia",
+        "septicaemia",
+        "penggunaan",
+        "J18.9",
+        "A41.9",
+        "A40.3",
+        "menjadi",
+        "unspecified",
+        "due",
+        "kode"
+      ],
+      "kategori": "sistem_respirasi"
+    },
+    {
+      "id": "case_0080",
+      "diagnosa": "Penggunaan kode kombinasi untuk Pneumonia,\nunspecified dengan Typhoid fever menjadi\nLocalized salmonella infections (A02.2)",
+      "kode_diagnosa": [
+        "A02.2",
+        "J17.0",
+        "J17",
+        "A01.0"
+      ],
+      "prosedur": "",
+      "aspek_koding": "ICD 10 2010 Volume 3\n Typhoid (abortive) (ambulant) (any site)\n(fever) (hemorrhagic) (infection)\n(intermittent) (malignant) (rheumatic)\nA01.0\n- inoculation reaction — see\nComplications, vaccination\n- pneumonia A01.0† J17.0*\n Sesuai dengan intruksi pada volume I sub bab\npneumonia in diseases classified elsewhere (J17)\nyang menyatakan penggunaan pneumonia (due\nto)(in) · typhoid fever mengarah kode dagger\n(A01.0+) dan asterisk (J17.0*). Bukan kode\nkombinasi.",
+      "perhatian_khusus": "Diagnosa demam tifoid dan pneumonia dikode",
+      "keywords": [
+        "salmonella",
+        "typhoid",
+        "fever",
+        "untuk",
+        "infections",
+        "kombinasi",
+        "dengan",
+        "pneumonia",
+        "penggunaan",
+        "A02.2",
+        "J17.0",
+        "menjadi",
+        "unspecified",
+        "kode",
+        "J17",
+        "A01.0",
+        "localized"
+      ],
+      "kategori": "penyakit_infeksi_parasit"
+    },
+    {
+      "id": "case_0081",
+      "diagnosa": "Kombinasi diagnosa Pneumonia, unspecified\n(J18.9) dan HIV disease resulting in candidiasis\n(B20.4)",
+      "kode_diagnosa": [
+        "P01.5",
+        "B20.8",
+        "J18.9",
+        "Q69.9",
+        "B20.7",
+        "B22.7",
+        "B20.4"
+      ],
+      "prosedur": "",
+      "aspek_koding": "ICD 10 2010 Volume 3\n Multiple, multiplex — see also condition\n- birth, affecting fetus or newborn P01.5\n- delivery — see Delivery, multiple\n- digits (congenital) Q69.9\ndiseases NEC, resulting from HIV\ndisease B22.7\n- infections, resulting from HIV disease B20.7",
+      "perhatian_khusus": "Dikode HIV disease resulting in multiple infections",
+      "keywords": [
+        "candidiasis",
+        "P01.5",
+        "kombinasi",
+        "resulting",
+        "pneumonia",
+        "B20.8",
+        "J18.9",
+        "Q69.9",
+        "B20.7",
+        "hiv",
+        "disease",
+        "B22.7",
+        "dan",
+        "unspecified",
+        "diagnosa",
+        "B20.4"
+      ],
+      "kategori": "perinatal"
+    },
+    {
+      "id": "case_0082",
+      "diagnosa": "Penggunaan kode kombinasi untuk Pneumonia,\nunspecified dengan Asthma, unspecified menjadi\nChronic obstruct pulmonary disease with acute\nlower respiratory infection",
+      "kode_diagnosa": [
+        "J18.9",
+        "J45",
+        "J44.0"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Tidak ada instruksi includes / excludes secara\nlangsung dari kode pneumonia, unspecified\n(J18.9) dengan asthma (J45) baik dari volume I\nmaupun III. Kedua kode tidak dapat dikombinasi.",
+      "perhatian_khusus": "Kode chronic obstructive pulmonary disease with",
+      "keywords": [
+        "untuk",
+        "lower",
+        "J44.0",
+        "penggunaan",
+        "with",
+        "menjadi",
+        "J45",
+        "pneumonia",
+        "chronic",
+        "J18.9",
+        "unspecified",
+        "disease",
+        "acute",
+        "kombinasi",
+        "obstruct",
+        "asthma",
+        "pulmonary",
+        "infection",
+        "kode",
+        "dengan",
+        "respiratory"
+      ],
+      "kategori": "sistem_respirasi"
+    },
+    {
+      "id": "case_0083",
+      "diagnosa": "Kode kombinasi N18.9 dengan N39.0 menjadi\nN13.6",
+      "kode_diagnosa": [
+        "N39.0",
+        "N13.6",
+        "N18.9",
+        "N13.5",
+        "N13.0"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Pada volume I dan III tidak ada keterangan untuk\nkode kombinasi antara N18.9 dan N39.0. Kedua\nkode tersebut tidak ada hubungan include exclude\ndengan N13.6. Sehingga tidak dapat dijadikan kode\nkombinasi",
+      "perhatian_khusus": "Kode N13.6 digunakan sebagai kode kombinasi",
+      "keywords": [
+        "N39.0",
+        "kombinasi",
+        "dengan",
+        "N13.6",
+        "include",
+        "N13.0",
+        "menjadi",
+        "N13.5",
+        "N18.9",
+        "kode"
+      ],
+      "kategori": "sistem_genitourinaria"
+    },
+    {
+      "id": "case_0084",
+      "diagnosa": "Bronchitis, not specified as acute or chronic (J40)",
+      "kode_diagnosa": [
+        "J45.9",
+        "J45.0",
+        "J40",
+        "J68.0",
+        "E84",
+        "J20"
+      ],
+      "prosedur": "",
+      "aspek_koding": "J40 Bronchitis, not spesified\nInclude : Bronchitis :\n- NOS\n- catarrhal\n- with tracheitis NOS\nTracheobronchitis NOS\nEksklusi pada sub bab:\n cystic fibrosis (E84.-)\nEksklusi kategori :\nbronchitis :\n- allergic NOS (J45.0)\n- Asthmatic NOS (J45.9)\n- chemical (acute) (J68.0)",
+      "perhatian_khusus": "Perhatikan catatan dibawah kategori J40",
+      "keywords": [
+        "J45.9",
+        "J45.0",
+        "bronchitis",
+        "acute",
+        "J40",
+        "specified",
+        "J68.0",
+        "chronic",
+        "not",
+        "include",
+        "E84",
+        "J20"
+      ],
+      "kategori": "sistem_respirasi"
+    },
+    {
+      "id": "case_0085",
+      "diagnosa": "COPD/PPOK (J44.-)",
+      "kode_diagnosa": [
+        "J45.9",
+        "J44.9",
+        "J98.4",
+        "J42",
+        "J70",
+        "J44.0",
+        "J47",
+        "J43",
+        "J44",
+        "J41",
+        "J44.1",
+        "J60"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Perhatikan pada kategori J44 Other chonic\nobstructive pulmonary disease\ninclude : chronic :\n- bronchitis :\n-asthmatic (obstructive)\n- emphysematous\n- with :\n- airways obstruction\n- emphysema\n- obstructive :\n- asthma\n- bronchitis\n- tracheobronchitis\neksklusi : asthma (j45,-)\nasthmatic bronhitis NOS (J45.9)\nbronchiectasis (J47)\nchronic :\n- bronchitis :\n- NOS (J42)\n- simple and mucopurulent (J41,-)\n- tracheitis (j42)\n- tracheobronchitis (J42)\nemphysema (J43,-)\nlung disease due to external agents (J60-J70)",
+      "perhatian_khusus": "ICD 10 tahun 2010 Volume 3",
+      "keywords": [
+        "copd",
+        "ppok",
+        "J44.9",
+        "J45.9",
+        "J60",
+        "J98.4",
+        "J42",
+        "J70",
+        "J44.0",
+        "include",
+        "J47",
+        "J43",
+        "J44",
+        "J41",
+        "J44.1"
+      ],
+      "kategori": "sistem_respirasi"
+    },
+    {
+      "id": "case_0086",
+      "diagnosa": "Asthma (J45)",
+      "kode_diagnosa": [
+        "J45.9",
+        "J45.0",
+        "J70",
+        "J82",
+        "J44",
+        "J45.8",
+        "J46",
+        "J45",
+        "J60",
+        "J45.1"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Kriteria ekslusi:\nacute severe asthma (J46)\nchronic asthmatic (obstructive) bronchitis (J44.-)\nchronic obstructive asthma (J44.-)\neosinophilic asthma (J82)\nlung diseases due to external agents (J60-J70)\nstatus asthmaticus (J46)\nJ45.0 Predominantly allergic asthma\nAllergic:\nbronchitis NOS\nrhinitis with asthma\nAtopic asthma\nExtrinsic allergic asthma\nHay fever with asthma\nJ45.1 Nonallergic asthma\nIdiosyncratic asthma\nIntrinsic nonallergic asthma\nJ45.8 Mixed asthma\nCombination of conditions listed in J45.0 and\nJ45.1\nJ45.9 Asthma, unspecified\nAsthmatic bronchitis NOS\nLate-onset asthma",
+      "perhatian_khusus": "",
+      "keywords": [
+        "J45.9",
+        "J45.0",
+        "J70",
+        "J82",
+        "asthma",
+        "J44",
+        "J45.8",
+        "J46",
+        "J45",
+        "J60",
+        "J45.1"
+      ],
+      "kategori": "sistem_respirasi"
+    },
+    {
+      "id": "case_0087",
+      "diagnosa": "Effusi pleura (J90)",
+      "kode_diagnosa": [
+        "P28.8",
+        "R09.1",
+        "J90",
+        "J94.0",
+        "A16",
+        "A15",
+        "J11.1",
+        "C78.2"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Eksklusi : Effusi Pleura dengan kondisi :\nchylous (pleural) effusion J94.0\npleurisy NOS R09.1\ntuberculous A15-A16\nMalignan C78.2\nInfluenza J11.1\npada fetus, newborn P28.8",
+      "perhatian_khusus": "",
+      "keywords": [
+        "P28.8",
+        "effusi",
+        "R09.1",
+        "J90",
+        "J94.0",
+        "A16",
+        "kondisi",
+        "A15",
+        "J11.1",
+        "pleura",
+        "C78.2"
+      ],
+      "kategori": "perinatal"
+    },
+    {
+      "id": "case_0088",
+      "diagnosa": "Kista mandibula sinistra (K09.2), Gingivitis\n(K05.1), Gingival Abses (K05.2)",
+      "kode_diagnosa": [
+        "K05.1",
+        "K05.2",
+        "K09.2"
+      ],
+      "prosedur": "Eksterpasi kista",
+      "aspek_koding": "Untuk prosedur ekstirpasi yang dilakukan pada\ndaerah ginggiva/gum/gusi maka menggunakan\nkode 24.31.",
+      "perhatian_khusus": "Pastikan lokasi dari ekstirpasi yang dilakukan.",
+      "keywords": [
+        "sinistra",
+        "gingival",
+        "prosedur",
+        "abses",
+        "K05.1",
+        "K05.2",
+        "mandibula",
+        "gingivitis",
+        "K09.2",
+        "kode",
+        "kista"
+      ],
+      "kategori": "sistem_pencernaan"
+    },
+    {
+      "id": "case_0089",
+      "diagnosa": "Gastritis (K29)",
+      "kode_diagnosa": [
+        "K29.2",
+        "K29.4",
+        "K29.7",
+        "K25",
+        "K29.3",
+        "A18.83",
+        "K29.6",
+        "K29.01",
+        "K29.1",
+        "K52.8",
+        "K29.5",
+        "K29",
+        "E16.4",
+        "K29.71",
+        "K29.0",
+        "K29.00"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Kriteria eksklusi kategori:\neosinophilic gastritis or gastroenteritis (K52.8)\nZollinger-Ellison syndrome (E16.4)\nGastritis (sederhana) K29.7\nGastritis dengan perdarahan K29.71 (Gunakan\nkode ini jika ada muntah/BAB berdarah)\nGastritis akut erosif K29.00 -- dengan perdarahan\nK29.01\nGastritis Tuberkulosa A18.83\nVariasi kode K29,- berupa:\nK29.0 Acute haemorrhagic gastritis, Acute\n(erosive) gastritis with haemorrhage Excl.: erosion\n(acute) of stomach (K25.-)\nK29.1 Other acute gastritis\nK29.2 Alcoholic gastritis\nK29.3 Chronic superficial gastritis\nK29.4 Chronic atrophic gastritis, Gastric atrophy\nK29.5 Chronic gastritis, unspecified, Chronic\ngastritis:\nantral, fundal\nK29.6 Other gastritis, Giant hypertrophic gastritis\nGranulomatous gastritis, Ménétrier disease\nK29.7 Gastritis, unspecified",
+      "perhatian_khusus": "Penegakan diagnosis Gastritis setelah konfirmasi",
+      "keywords": [
+        "gastritis",
+        "K29.4",
+        "K29.7",
+        "K25",
+        "K29.3",
+        "A18.83",
+        "K29.6",
+        "K29.00",
+        "K29.71",
+        "K29.01",
+        "K29.5",
+        "K52.8",
+        "K29",
+        "E16.4",
+        "K29.1",
+        "kode",
+        "K29.0",
+        "K29.2"
+      ],
+      "kategori": "sistem_pencernaan"
+    },
+    {
+      "id": "case_0090",
+      "diagnosa": "Penggunaan kode kombinasi untuk Gastritis,\nunspecified dengan Haematemesis menjadi Acute\nhaemorrhagic gastritis",
+      "kode_diagnosa": [
+        "K92.0",
+        "K29.0",
+        "K29.7"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Tidak ada instruksi includes / excludes secara\nlangsung dari kode hematemesis (K92.0) dengan\ngastritis (K29.7) baik dari volume I maupun\nIII. Kode acute haemorrhagic gastritis (K29.0)\ndigunakan apabila sudah dilakukan konfirmasi\nsumber perdarahan berasal dari gastritis yang\ntegak secara medis.",
+      "perhatian_khusus": "",
+      "keywords": [
+        "gastritis",
+        "acute",
+        "K29.7",
+        "untuk",
+        "kombinasi",
+        "dengan",
+        "haematemesis",
+        "haemorrhagic",
+        "penggunaan",
+        "K92.0",
+        "K29.0",
+        "menjadi",
+        "unspecified",
+        "kode"
+      ],
+      "kategori": "sistem_pencernaan"
+    },
+    {
+      "id": "case_0091",
+      "diagnosa": "Dyspepsia (K30)",
+      "kode_diagnosa": [
+        "F45.3",
+        "K30",
+        "R12"
+      ],
+      "prosedur": "-\n63\n• Penyakit-Penyakit Sistem Pencernaan",
+      "aspek_koding": "Exclude :\ndyspepsia dengan penyebab\nnervous (F45.3)\nneurotic (F45.3)\npsychogenic (F45.3)\nheartburn (R12)",
+      "perhatian_khusus": "Penegakan diagnosis Dispepsia bisa dengan gejala",
+      "keywords": [
+        "K30",
+        "R12",
+        "F45.3",
+        "dyspepsia"
+      ],
+      "kategori": "gangguan_mental_perilaku"
+    },
+    {
+      "id": "case_0092",
+      "diagnosa": "Acute appendicitis (K35.8)",
+      "kode_diagnosa": [
+        "K35.2",
+        "K35.8",
+        "K35.3",
+        "K35"
+      ],
+      "prosedur": "",
+      "aspek_koding": "K35.2\nAcute appendicitis with generalized peritonitis\nAppendicitis (acute) with generalized (diffuse)\nperitonitis following rupture or perforation\nK35.3\nAcute appendicitis with localized peritonitis\nAcute appendicitis with localized peritonitis with or\nwithout rupture or perforation\nAcute appendicitis with peritoneal abscess\nK35.8\nAcute appendicitis, other and unspecified\nAcute appendicitis without mention of localized or\ngeneralized peritonitis",
+      "perhatian_khusus": "Kondisi peritonitis dan atau perforasi, abses",
+      "keywords": [
+        "acute",
+        "appendicitis",
+        "K35",
+        "K35.2",
+        "K35.8",
+        "K35.3"
+      ],
+      "kategori": "sistem_pencernaan"
+    },
+    {
+      "id": "case_0093",
+      "diagnosa": "Kode kombinasi diagnosa primer Hernia dengan\ndiagnosa sekunder obstruksi",
+      "kode_diagnosa": [
+        "K40",
+        "K46"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Pada sub bab Hernia (K40-K46) sudah terdapat\nkode untuk hernia yang disertai obstruksi.\nObstruksi tidak dapat digunakan sebagai diagnosa\nsekunder.",
+      "perhatian_khusus": "",
+      "keywords": [
+        "obstruksi",
+        "K46",
+        "primer",
+        "kombinasi",
+        "dengan",
+        "sekunder",
+        "K40",
+        "hernia",
+        "diagnosa",
+        "kode"
+      ],
+      "kategori": "sistem_pencernaan"
+    },
+    {
+      "id": "case_0094",
+      "diagnosa": "Unilateral or unspecified inguinal hernia, without\nobstruction or gangrene\n(K40.9)",
+      "kode_diagnosa": [
+        "K40.9"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Hernia dengan gangren dan obstruksi\ndiklasifikasikan hernia dengan gangren.\n Kriteria inklusi sub bab:\nHernia yang didapat (acquired),\ncongenital (kecuali diafragmatik atau hiatus),\nrekuren (berulang).\nIncludes: bubonocele, inguinal hernia (direk,\nindirek, double, oblique,NOS) , scrotal hernia",
+      "perhatian_khusus": "Pastikan lokasi anatomis hernia sesuai dengan",
+      "keywords": [
+        "K40.9",
+        "unilateral",
+        "inguinal",
+        "obstruction",
+        "hernia",
+        "without",
+        "unspecified",
+        "gangrene"
+      ],
+      "kategori": "sistem_pencernaan"
+    },
+    {
+      "id": "case_0095",
+      "diagnosa": "Other and unspecified cirrhosis of liver (K74.6)",
+      "kode_diagnosa": [
+        "K70.2",
+        "K71.7",
+        "K76.1",
+        "K74",
+        "K74.6",
+        "K70.3",
+        "P78.8"
+      ],
+      "prosedur": "",
+      "aspek_koding": "K74.6 Other and unspecified cirrhosis of liver\nCirrhosis (of liver) :\n- NOS\n- cryptogenic\n- Macronodular\n- Mixed type\n- portal\n- postnecrotic\n Perhatikan pada kategori K74 Fibrosis and\ncirrhosis of liver\nExcludes : alcoholic fibrosis of liver (K70.2)\ncardiac sclerosis of liver (K76.1)\ncirrhosis (of liver) :\n- alcoholic (K70.3)\n- congenital (P78.8)\nwith toxic liver disease (K71.7)",
+      "perhatian_khusus": "",
+      "keywords": [
+        "liver",
+        "K70.2",
+        "cirrhosis",
+        "K71.7",
+        "K76.1",
+        "and",
+        "K74",
+        "unspecified",
+        "K74.6",
+        "other",
+        "K70.3",
+        "P78.8"
+      ],
+      "kategori": "sistem_pencernaan"
+    },
+    {
+      "id": "case_0096",
+      "diagnosa": "Cutaneous abscess, furuncle and carbuncle of limb\n(L02.4)",
+      "kode_diagnosa": [
+        "L02.4"
+      ],
+      "prosedur": "Nonexcisional debridement of wound, infection,\nor burn (86.28); Other incision of skin and\nsubcutaneous tissue (86.09)",
+      "aspek_koding": "Jika insisi pada abses maka menggunakan\n86.04 (Other incision with drainage of skin and\nsubcutaneous tissue).",
+      "perhatian_khusus": "",
+      "keywords": [
+        "L02.4",
+        "and",
+        "furuncle",
+        "abscess",
+        "limb",
+        "cutaneous",
+        "carbuncle"
+      ],
+      "kategori": "kulit_subkutan"
+    },
+    {
+      "id": "case_0097",
+      "diagnosa": "Decubitus ulcer (L89) dengan Non-insulin-depend\ndiabetes mellitus without complication",
+      "kode_diagnosa": [
+        "L89",
+        "E11.5"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Apabila ulkus pada NIDDM maka di kode E11.5\nNon-insulin-dependent diabetes mellitus, with\nperipheral circulatory complications).\n Ulkus dekubitus yang dipicu oleh faktor selain DM\nmemiliki kode tersendiri, yaitu L89.",
+      "perhatian_khusus": "",
+      "keywords": [
+        "decubitus",
+        "mellitus",
+        "dengan",
+        "L89",
+        "E11.5",
+        "depend",
+        "non",
+        "diabetes",
+        "without",
+        "ulcer",
+        "complication",
+        "kode",
+        "insulin"
+      ],
+      "kategori": "kulit_subkutan"
+    },
+    {
+      "id": "case_0098",
+      "diagnosa": "Ulkus Thorax Dextra (L98.4)",
+      "kode_diagnosa": [
+        "L98.4"
+      ],
+      "prosedur": "Debridement dan Eksisi luas",
+      "aspek_koding": "Jika eksisi yang dilakukan bagian dari debridement\ntajam (membuang jaringan nekrotik) maka\nmenggunakan kode 86.22 (Excisional debridement\nof wound, infection, or burn)",
+      "perhatian_khusus": "Pastikan prosedur yang dilakukan.",
+      "keywords": [
+        "thorax",
+        "L98.4",
+        "dextra",
+        "ulkus",
+        "kode"
+      ],
+      "kategori": "kulit_subkutan"
+    },
+    {
+      "id": "case_0099",
+      "diagnosa": "Kista temporoparietal",
+      "kode_diagnosa": [
+        "G93.0",
+        "L72.9"
+      ],
+      "prosedur": "Eksisi",
+      "aspek_koding": "Kode diagnosis G93.0 merupakan kode untuk kista\nlokasi pada struktur otak.\nJika kista berada pada kulit kepala maka\nmenggunakan kode L72.9\nJika eksisi dilakukan untuk mengambil jaringan\nmaka menggunakan kode 86.3, namun jika\ndilakukan eksisi dan biopsi maka menggunakan\nkode 86.11",
+      "perhatian_khusus": "Pastikan lokasi kista dan prosedur yang dilakukan.",
+      "keywords": [
+        "G93.0",
+        "diagnosis",
+        "L72.9",
+        "kode",
+        "temporoparietal",
+        "kista"
+      ],
+      "kategori": "sistem_saraf"
+    },
+    {
+      "id": "case_0100",
+      "diagnosa": "Hidronefrosis, Batu Saluran Kemih dan ISK\ndikoding kombinasi dengan kode N13.6\nRS : Diagnosis N132 Diagnosis N390",
+      "kode_diagnosa": [
+        "N13.6",
+        "N13"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Sesuai dengan instruksi excludes pada volume\nI kode hydronephrosis with renal and ureteral\ncalculous obstruction (N13,2) yang menyatakan\nwith infection mengarah pada kode pyonephrosis\n(N13.6). Sehingga penggunaan kode N13,6\ndigunakan untuk menggabungkan antara\nhydronephrosis, batu kidney - ureter dengan ISK.",
+      "perhatian_khusus": "",
+      "keywords": [
+        "isk",
+        "saluran",
+        "kombinasi",
+        "dengan",
+        "N13.6",
+        "N13",
+        "dikoding",
+        "kemih",
+        "diagnosis",
+        "dan",
+        "hidronefrosis",
+        "kode",
+        "batu"
+      ],
+      "kategori": "sistem_genitourinaria"
+    },
+    {
+      "id": "case_0101",
+      "diagnosa": "Diagnosa primer hidronefrosis yang disertai\ndengan urolitiasis (batu saluran kemih) atau infeksi\nsaluran kemih",
+      "kode_diagnosa": [
+        "N13.6"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Menggunakan kode kombinasi pyonephrosis\n(N13.6). Urolitiasis dan infeksi saluran kemih tidak\ndikode sebagai diagnosa sekunder",
+      "perhatian_khusus": "",
+      "keywords": [
+        "saluran",
+        "primer",
+        "dengan",
+        "N13.6",
+        "disertai",
+        "infeksi",
+        "kemih",
+        "atau",
+        "urolitiasis",
+        "hidronefrosis",
+        "diagnosa",
+        "kode",
+        "yang",
+        "batu"
+      ],
+      "kategori": "sistem_genitourinaria"
+    },
+    {
+      "id": "case_0102",
+      "diagnosa": "Penggunaan kode kombinasi untuk diagnosa Other\nobstructive and reflux uropathy (N13.8) dengan\nUrinary tract infection, site not specified (N39.0),\nunspecified menjadi Pyonephrosis (N13.6)",
+      "kode_diagnosa": [
+        "B95",
+        "N39.0",
+        "N13.6",
+        "N13.8",
+        "N13.5",
+        "N13.0",
+        "B97"
+      ],
+      "prosedur": "",
+      "aspek_koding": "N13.6 Pyonephrosis\nConditions in N13.0-N13.5 with infection\nObstructive uropathy with infection\nUse additional code (B95-B97), if desired, to\nidentify infectious agent.",
+      "perhatian_khusus": "Sesuai ICD 10 2010 Volume 1, diagnosa Other",
+      "keywords": [
+        "untuk",
+        "tract",
+        "penggunaan",
+        "site",
+        "menjadi",
+        "pyonephrosis",
+        "not",
+        "unspecified",
+        "reflux",
+        "B97",
+        "N39.0",
+        "specified",
+        "kombinasi",
+        "N13.8",
+        "and",
+        "diagnosa",
+        "N13.5",
+        "infection",
+        "kode",
+        "other",
+        "uropathy",
+        "dengan",
+        "N13.6",
+        "urinary",
+        "B95",
+        "N13.0",
+        "obstructive"
+      ],
+      "kategori": "penyakit_infeksi_parasit"
+    },
+    {
+      "id": "case_0103",
+      "diagnosa": "Penggunaan kode kombinasi untuk Acute Renal\nFailure (N17.9) dengan Urinary tract infection, site\nnot specified menjadi Pyonephrosis",
+      "kode_diagnosa": [
+        "N39.0",
+        "N17.9"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Tidak ada instruksi includes / excludes pada kode\nacute renal failure, unspecified (N17.9) dengan\nkode urinary tract infection, site not specified\n(N39.0) baik di volume I maupun III. Bukan kode\nkombinasi.",
+      "perhatian_khusus": "",
+      "keywords": [
+        "infection",
+        "acute",
+        "N39.0",
+        "N17.9",
+        "untuk",
+        "specified",
+        "kombinasi",
+        "renal",
+        "dengan",
+        "not",
+        "failure",
+        "penggunaan",
+        "urinary",
+        "tract",
+        "site",
+        "pyonephrosis",
+        "menjadi",
+        "kode"
+      ],
+      "kategori": "sistem_genitourinaria"
+    },
+    {
+      "id": "case_0104",
+      "diagnosa": "AKI dan Sirosis Hepatis dikoding kombinasi\ndengan kode K76.7\nRS : Diagnosis N179 Diagnosis K746\nSPI : Kombinasi K767",
+      "kode_diagnosa": [
+        "K76.7",
+        "K74.6",
+        "N17.9"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Tidak ada instruksi includes / excludes secara\nlangsung pada kode acute renal failure, unspecified\n(N17.9) dan other unspecified cirrhosis of liver\n(K74.6) baik dari volume I maupun III. Sedangkan\nkode hepatorenal syndrome (K76.7) digunakan\nuntuk sindrom hepatorenal yang tegak secara\nmedis. Bukan kode kombinasi.",
+      "perhatian_khusus": "",
+      "keywords": [
+        "K74.6",
+        "N17.9",
+        "kombinasi",
+        "dengan",
+        "K76.7",
+        "aki",
+        "hepatis",
+        "dikoding",
+        "diagnosis",
+        "dan",
+        "sirosis",
+        "spi",
+        "kode"
+      ],
+      "kategori": "sistem_pencernaan"
+    },
+    {
+      "id": "case_0105",
+      "diagnosa": "Calculus of kidney (N20.0)",
+      "kode_diagnosa": [
+        "N13.6",
+        "N23",
+        "N13.2",
+        "N30",
+        "N20.0",
+        "N20",
+        "N39"
+      ],
+      "prosedur": "",
+      "aspek_koding": "N20.0 Calculus of kidney\ntermasuk didalamnya:\n Nephrolithiasis NOS\n Renal calculus or stone\n Stagghon calculus\n Stone in kidney\nPerhatikan pada kategori N20\nIncludes : calculus pyelonephiritis\nExcludes : with hydronephrosis (N13.2)\n -with infection (N13.6)\nSesuai dengan instruksi excludes pada ICD 10\n2008 dan 2010 volume I sub bab other diseases\nof urinary system (N30-N39) yang menyatakan\nurinary infection (complicating) with urolithiasis\nmengarah pada satu kode (N20-N23). Kondisi\ninfeksi pada urinary calculus tidak menggunakan\nkode tersendiri. Cukup dikode urinary calculus\nsebagai diagnosa utama (tanpa diagnosa sekunder)",
+      "perhatian_khusus": "Kondisi batu saluran kemih dan batu ginjal yang",
+      "keywords": [
+        "N23",
+        "N13.6",
+        "N13.2",
+        "N30",
+        "N20.0",
+        "kondisi",
+        "N20",
+        "N39",
+        "kode",
+        "kidney",
+        "calculus"
+      ],
+      "kategori": "sistem_genitourinaria"
+    },
+    {
+      "id": "case_0106",
+      "diagnosa": "Kode kombinasi N20.1 dan N10 digabung menjadi\nN20.1",
+      "kode_diagnosa": [
+        "N12",
+        "N20.9",
+        "N20.1",
+        "N10"
+      ],
+      "prosedur": "",
+      "aspek_koding": "ICD 10 2010 Volume 3\nPyelonephritis (see also Nephritis,\ntubulo-interstitial) N12\n- acute N10\nKode calculus of ureter (N20.1) dan pyelonephritis\n(N10) lebih tepat digabung menggunakan kode\nN20.9. Sesuai instruksi volume III pyelonephritis\n(N10) - calculous mengarah kepada kode urinary\ncalculus, unspecified N20.9. Sehingga kode N20.9\nsudah menggambarkan adanya batu kidney - ureter\nyang disertai pyelonephritis.",
+      "perhatian_khusus": "",
+      "keywords": [
+        "N10",
+        "kombinasi",
+        "digabung",
+        "dan",
+        "menjadi",
+        "N12",
+        "N20.1",
+        "kode",
+        "N20.9"
+      ],
+      "kategori": "sistem_genitourinaria"
+    },
+    {
+      "id": "case_0107",
+      "diagnosa": "Calculus of Kidney and Ureter (N20.2) yang disertai\ndengan penyakit infeksi saluran kemih (N39.0)\nlebih tepat dikode hanya N20.2",
+      "kode_diagnosa": [
+        "N39.0",
+        "O75.3",
+        "N23",
+        "N20.2",
+        "N30",
+        "O07",
+        "N20",
+        "O00",
+        "N39",
+        "O08.8",
+        "O23",
+        "O86.2"
+      ],
+      "prosedur": "",
+      "aspek_koding": "ICD 10 2010 Volume 1\nOther diseases of urinary system\n(N30-N39)\nExcludes: urinary infection (complicating):\n· abortion or ectopic or molar pregnancy (\nO00-O07 , O08.8 )\n· pregnancy, childbirth and the puerperium (O23.- ,\nO75.3 , O86.2 )\n· with urolithiasis ( N20-N23 )",
+      "perhatian_khusus": "Kondisi infeksi pada calculus of kidney and ureter",
+      "keywords": [
+        "dikode",
+        "hanya",
+        "N20",
+        "O00",
+        "N39",
+        "yang",
+        "saluran",
+        "O75.3",
+        "disertai",
+        "N30",
+        "penyakit",
+        "O07",
+        "kemih",
+        "tepat",
+        "O86.2",
+        "O08.8",
+        "O23",
+        "N39.0",
+        "N23",
+        "N20.2",
+        "infeksi",
+        "and",
+        "ureter",
+        "kidney",
+        "lebih",
+        "dengan",
+        "calculus"
+      ],
+      "kategori": "sistem_genitourinaria"
+    },
+    {
+      "id": "case_0108",
+      "diagnosa": "Rekomendasi SPI mengenai perubahan kode\nCalculus of Kidney and Ureter (N20.2) menjadi\nPyonephrosis (N13.6) pada diagnosa sekunder AKI\n(N17.9)",
+      "kode_diagnosa": [
+        "N17.9",
+        "N13.6",
+        "N13.2",
+        "N20.2",
+        "N20.1"
+      ],
+      "prosedur": "",
+      "aspek_koding": "ICD 10 2010 Volume 3\nCalculus, calculi, …-----\n- ureter (impacted) (recurrent) N20.1\n- - with\n- - - calculus, kidney N20.2\n- - - - with hydronephrosis N13.2\n- - - - - with infection N13.6",
+      "perhatian_khusus": "“Calculus ureter dan ginjal (N20.2) tidak dapat",
+      "keywords": [
+        "N17.9",
+        "aki",
+        "menjadi",
+        "spi",
+        "perubahan",
+        "pyonephrosis",
+        "mengenai",
+        "pada",
+        "N20.2",
+        "and",
+        "ureter",
+        "diagnosa",
+        "kidney",
+        "kode",
+        "sekunder",
+        "N13.6",
+        "N13.2",
+        "N20.1",
+        "rekomendasi",
+        "calculus"
+      ],
+      "kategori": "sistem_genitourinaria"
+    },
+    {
+      "id": "case_0109",
+      "diagnosa": "Calculus in bladder (N21.0) yang disertai dengan\npenyakit infeksi saluran kemih (N39.0) lebih tepat\ndikode hanya N21.0",
+      "kode_diagnosa": [
+        "N39.0",
+        "N21.0",
+        "O75.3",
+        "N23",
+        "N30",
+        "O07",
+        "N20",
+        "O00",
+        "N39",
+        "O08.8",
+        "O23",
+        "O86.2"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Other diseases of urinary system\n(N30-N39)\nExcludes: urinary infection (complicating):\n· abortion or ectopic or molar pregnancy (\nO00-O07 , O08.8 )\n· pregnancy, childbirth and the puerperium (O23.- ,\nO75.3 , O86.2 )\n· with urolithiasis ( N20-N23 )",
+      "perhatian_khusus": "Kondisi infeksi pada Calculus in bladder tidak",
+      "keywords": [
+        "dikode",
+        "N21.0",
+        "hanya",
+        "N20",
+        "O00",
+        "N39",
+        "yang",
+        "bladder",
+        "saluran",
+        "O75.3",
+        "disertai",
+        "N30",
+        "penyakit",
+        "O07",
+        "kemih",
+        "tepat",
+        "O86.2",
+        "O08.8",
+        "O23",
+        "N39.0",
+        "N23",
+        "infeksi",
+        "lebih",
+        "dengan",
+        "calculus"
+      ],
+      "kategori": "sistem_genitourinaria"
+    },
+    {
+      "id": "case_0110",
+      "diagnosa": "Kasus Batu Buli (N21.0) dan Hidronefrosis\ndikoding N20.9\nRS : Diagnosis N210 Diagnosis N132\nSPI : Kombinasi N209",
+      "kode_diagnosa": [
+        "N20.9",
+        "N13.2",
+        "N21.0",
+        "N20"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Tidak ada instruksi includes / excludes pada\nkode calculus in bladder (N21.0) dengan kode\nhydronephrosis with renal and ureteral calculous\nobstruction (N13.2) baik di volume I dan III.\nKode urinary calculus, unspecified (N20.9)\nmerupakan bagian dari kode calculus of kidney and\nureter (N20) sehingga tidak dapat digunakan untuk\nmenjelaskan batu buli.",
+      "perhatian_khusus": "",
+      "keywords": [
+        "N21.0",
+        "kasus",
+        "kombinasi",
+        "N13.2",
+        "N20.9",
+        "dikoding",
+        "diagnosis",
+        "dan",
+        "hidronefrosis",
+        "N20",
+        "kode",
+        "spi",
+        "batu",
+        "buli"
+      ],
+      "kategori": "sistem_genitourinaria"
+    },
+    {
+      "id": "case_0111",
+      "diagnosa": "Penggunaan kode kombinasi untuk Unspecified\nrenal colic (N23) dengan Other and unspecified\nhydronephrosis menjadi Hydronephrosis with renal\nand ureteral calculous obstruction",
+      "kode_diagnosa": [
+        "N13.2",
+        "N23",
+        "N13.3"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Colic------\nrenal N23\nTidak ada instruksi includes / excludes secara\nlangsung dari kode unspecified renal colic (N23)\ndengan other and unspecified hydronephrosis\n(N13.3) baik dari volume I maupun III. Kode\nhydronephrosis with renal and ureteral calculous\nobstruction (N13.2) digunakan apabila sudah\nditemukan batu yang tegak secara medis.",
+      "perhatian_khusus": "Tidak ada kode kombinasi diagnosa kolik renal",
+      "keywords": [
+        "ureteral",
+        "untuk",
+        "obstruction",
+        "penggunaan",
+        "with",
+        "menjadi",
+        "hydronephrosis",
+        "renal",
+        "calculous",
+        "colic",
+        "unspecified",
+        "kombinasi",
+        "N23",
+        "and",
+        "kode",
+        "other",
+        "dengan",
+        "N13.2",
+        "N13.3"
+      ],
+      "kategori": "sistem_genitourinaria"
+    },
+    {
+      "id": "case_0112",
+      "diagnosa": "Urinary tract infection, site not specified (N39.0)",
+      "kode_diagnosa": [
+        "R80",
+        "N39.0",
+        "O75.3",
+        "R31",
+        "N23",
+        "N30",
+        "N39",
+        "O07",
+        "N20",
+        "O00",
+        "O86.2",
+        "O08.8",
+        "O23",
+        "N02"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Kriteria eksklusi sub bab:\nUrinary infection (complicating):\nAborsi atau kehamilan ektopik/mola(O00-O07,\nO08.8)\nKehamilan, persalinan dan nifas (O23.-, O75.3,\nO86.2)\nDengan urolithiasis (jika diserta N39.0, hanya\nmenggunakan kode N20-N23)\nKriteria eksklusi kategori:\nhaematuria (NOS (R31),\n rekuren dan persisten (N02.-),\n pada lesi dengan morfologi spesifik (N02.),\nproteinuria NOS (R80)\nSesuai dengan instruksi excludes pada volume\nI sub bab other diseases of urinary system \n(N30-N39) yang menyatakan urinary infection\n(complicating) with urolithiasis mengarah pada\nsatu kode (N20-N23).",
+      "perhatian_khusus": "Kondisi batu saluran kemih yang disertai dengan",
+      "keywords": [
+        "R31",
+        "tract",
+        "site",
+        "N20",
+        "O00",
+        "N39",
+        "N02",
+        "O75.3",
+        "not",
+        "N30",
+        "O07",
+        "O86.2",
+        "O08.8",
+        "O23",
+        "R80",
+        "N39.0",
+        "specified",
+        "N23",
+        "infection",
+        "kode",
+        "urinary"
+      ],
+      "kategori": "gejala_tanda_abnormal"
+    },
+    {
+      "id": "case_0113",
+      "diagnosa": "Hyperplasia of Prostate (N40)",
+      "kode_diagnosa": [
+        "D29.1",
+        "N40"
+      ],
+      "prosedur": "",
+      "aspek_koding": "N40 Hyperplasia of prostat\ntermasuk didalamnya :\n Adenofibromatous hypertrophy of prostat\n Enlargement (benign) of prostat\n Hypertrophy (benign) of prostat\n Median bar (prostate)\n Prostatic obstruction NOS\nEksklusi : benign neoplasmas of protate (D29.1)",
+      "perhatian_khusus": "Pastikan kesesuaian dengan hasil pemeriksaan",
+      "keywords": [
+        "D29.1",
+        "hyperplasia",
+        "N40",
+        "prostate"
+      ],
+      "kategori": "penyakit_darah_imun"
+    },
+    {
+      "id": "case_0114",
+      "diagnosa": "Kista vagina (N89.8)",
+      "kode_diagnosa": [
+        "N89.8"
+      ],
+      "prosedur": "Eksisi kista dan adhesiolisis",
+      "aspek_koding": "Jika prosedur yang dilakukan adalah eksisi pada\nvagina untuk mengangkat kista maka dikode 70.33.\nJika prosedur yang dilakukan adalah mengambil\njaringan untuk biopsi maka dikode 70.24.\nJika prosedur yang dilakukan adalah untuk\nmengangkat kista secara keseluruhan dan biopsi\nmaka dikode 70.33 dan 70.24.",
+      "perhatian_khusus": "",
+      "keywords": [
+        "N89.8",
+        "prosedur",
+        "kista",
+        "vagina"
+      ],
+      "kategori": "sistem_genitourinaria"
+    },
+    {
+      "id": "case_0115",
+      "diagnosa": "Blighted ovum and nonhydatidiform mole (O02.0)",
+      "kode_diagnosa": [
+        "O08",
+        "O02",
+        "O02.0",
+        "O31.0"
+      ],
+      "prosedur": "",
+      "aspek_koding": "O02.0 Blighted ovum and nonhydatidiform mole\nMole :\n- carneous\n- fleshy\n- intrauterine NOS\nPathological ovum",
+      "perhatian_khusus": "Perhatikan pada kategori O02",
+      "keywords": [
+        "O02.0",
+        "and",
+        "blighted",
+        "ovum",
+        "nonhydatidiform",
+        "O02",
+        "O31.0",
+        "O08",
+        "mole"
+      ],
+      "kategori": "kehamilan_persalinan"
+    },
+    {
+      "id": "case_0116",
+      "diagnosa": "Spontaneous abortion, incomplete without\ncomplication (O03.4)",
+      "kode_diagnosa": [
+        "O31.1",
+        "O08",
+        "O00",
+        "O03.4"
+      ],
+      "prosedur": "",
+      "aspek_koding": "O03.4 Spontaneous abortion\nInklusi : miscarriage\n Perhatikan pada sub bab (O00-O08)\nEksklusi : continuing pregnancy in multiple\ngestation after abortion of one fetus or more\n(O31.1)",
+      "perhatian_khusus": "",
+      "keywords": [
+        "O31.1",
+        "O00",
+        "O03.4",
+        "abortion",
+        "incomplete",
+        "spontaneous",
+        "without",
+        "complication",
+        "O08"
+      ],
+      "kategori": "kehamilan_persalinan"
+    },
+    {
+      "id": "case_0117",
+      "diagnosa": "Unspesified abortion incomplete (O06.4)",
+      "kode_diagnosa": [
+        "O31.1",
+        "O08",
+        "O06.4",
+        "O00"
+      ],
+      "prosedur": "",
+      "aspek_koding": "O06.4 Unspecified abortion incomplete, without\ncomplication\nIncludes : induced abortion NOS\n Perhatikan pada sub bab (O00-O08)\nExludes : continuing pregnancy in multiple\ngestation after abortion of one fetus or more\n(O31.1)",
+      "perhatian_khusus": "",
+      "keywords": [
+        "O31.1",
+        "O00",
+        "abortion",
+        "incomplete",
+        "unspesified",
+        "O08",
+        "O06.4"
+      ],
+      "kategori": "kehamilan_persalinan"
+    },
+    {
+      "id": "case_0118",
+      "diagnosa": "Severe pre-eclampsia (O14.1)",
+      "kode_diagnosa": [
+        "O14",
+        "O11",
+        "O14.1"
+      ],
+      "prosedur": "",
+      "aspek_koding": "O141 Severe pre-eclampsia\nPada kategori O14 kriteria eksklusi :\nsuperimposed pre-eclampsia O11",
+      "perhatian_khusus": "Perhatikan kriteria penegakan diagnosis moderat",
+      "keywords": [
+        "severe",
+        "eclampsia",
+        "O11",
+        "O14.1",
+        "pre",
+        "O14"
+      ],
+      "kategori": "kehamilan_persalinan"
+    },
+    {
+      "id": "case_0119",
+      "diagnosa": "Mild hyperemesis gravidarum (O21.0)",
+      "kode_diagnosa": [
+        "O21.0",
+        "O98",
+        "O99",
+        "O48",
+        "O20",
+        "O30",
+        "O29"
+      ],
+      "prosedur": "",
+      "aspek_koding": "O21.0 Mild hyperemesis gravidarum\nHyperemesis gravidarum, mild or unspecified,\nstarting before the end of the 22nd week of\ngestation\nPerhatikan pada sub bab (O20-O29)\nEksklusi :\n- Maternal care related to the fetus and amniotic\ncavity and possible delivery problems (O30-O48)\n- Disease classifiable alsewhere but complicating\npregnancy, labour and delivery, and the purperium\n(O98-O99)",
+      "perhatian_khusus": "",
+      "keywords": [
+        "mild",
+        "O21.0",
+        "O98",
+        "hyperemesis",
+        "O99",
+        "O48",
+        "O30",
+        "O20",
+        "gravidarum",
+        "O29"
+      ],
+      "kategori": "kehamilan_persalinan"
+    },
+    {
+      "id": "case_0120",
+      "diagnosa": "Maternal care for disproportion, unspecified\n(O33.9)",
+      "kode_diagnosa": [
+        "O66",
+        "O33.9",
+        "O65",
+        "O33"
+      ],
+      "prosedur": "",
+      "aspek_koding": "O33.9 Maternal care for disproportion, unspecified\nCephalopelvic disproportion NOS\nFetopelvic disproportion NOS\n Perhatikan pada kategori O33\nIncludes : the listed conditions as a reason for\nobsevation, hospitalization or other obstetric care\nof the mother, or for caesarean section before\nonset of labour\nExcludes : the listed conditions with obstructed\nlabour (O65-O66)",
+      "perhatian_khusus": "",
+      "keywords": [
+        "maternal",
+        "disproportion",
+        "for",
+        "care",
+        "O33.9",
+        "O66",
+        "O65",
+        "O33",
+        "unspecified"
+      ],
+      "kategori": "kehamilan_persalinan"
+    },
+    {
+      "id": "case_0121",
+      "diagnosa": "Maternal care due to uterine scar from previous\nsurgery (O34.2)",
+      "kode_diagnosa": [
+        "O34.2",
+        "O75.7"
+      ],
+      "prosedur": "",
+      "aspek_koding": "O34.2 Maternal care for scar from previous\ncaesarean section\nExcludes: vaginal delivery following previous\ncaesarean section NOS (O75.7 )",
+      "perhatian_khusus": "Perhatikan penunjang medis dan klinis",
+      "keywords": [
+        "maternal",
+        "previous",
+        "from",
+        "O34.2",
+        "O75.7",
+        "surgery",
+        "care",
+        "uterine",
+        "scar",
+        "due"
+      ],
+      "kategori": "kehamilan_persalinan"
+    },
+    {
+      "id": "case_0122",
+      "diagnosa": "Oligohydramnios (O41.0)",
+      "kode_diagnosa": [
+        "O41.0",
+        "O41",
+        "O42"
+      ],
+      "prosedur": "",
+      "aspek_koding": "O41.0 Oligohydramnios\nOligohydramnios without mention of rupture of\nmembranes (O42,-)\nPerhatikan pada kategori O41.\nExcludes : premature rupture of membranes\n(O42,-)\nJika terjadi oligohidroamnion dan ketuban pecah\ndini (KPD) maka hanya digunakan kode 042.-",
+      "perhatian_khusus": "",
+      "keywords": [
+        "oligohydramnios",
+        "O42",
+        "O41.0",
+        "O41",
+        "kode"
+      ],
+      "kategori": "kehamilan_persalinan"
+    },
+    {
+      "id": "case_0123",
+      "diagnosa": "Prolonged pregnancy (O48)",
+      "kode_diagnosa": [
+        "O48",
+        "O30"
+      ],
+      "prosedur": "",
+      "aspek_koding": "O48 Prolonged pregnancy\nPost-dates\nPost-term\nICD 10 Volume 1\n42 completed weeks or more (294 days or more)\nof gestation.",
+      "perhatian_khusus": "Perhatikan pada sub bab :",
+      "keywords": [
+        "O48",
+        "O30",
+        "prolonged",
+        "pregnancy"
+      ],
+      "kategori": "kehamilan_persalinan"
+    },
+    {
+      "id": "case_0124",
+      "diagnosa": "Persalinan normal\n080.9 dan O80.0",
+      "kode_diagnosa": [
+        "O80.0",
+        "Z37"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Kriteria inklusi:\nKasus persalinan normal dengan bantuan minim\natau tanpa bantuan sama sekali, dengan atau tanpa\nepisiotomi.",
+      "perhatian_khusus": "Diagnosa penyulit/komplikasi menjadi diagnosa",
+      "keywords": [
+        "normal",
+        "persalinan",
+        "Z37",
+        "dan",
+        "O80.0"
+      ],
+      "kategori": "kehamilan_persalinan"
+    },
+    {
+      "id": "case_0125",
+      "diagnosa": "Persalinan Caesar (O82.-)",
+      "kode_diagnosa": [
+        "Z37",
+        "O82.1",
+        "O82",
+        "O82.0"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Gunakan kode spesifik yang sesuai dengan\ndeskripsi ICD 10.\nContoh : Operasi Sectio Cesarea elektif\nmenggunakan kode O82.0 sedangkan untuk\nOperasi Sectio Cesarea emergensi menggunakan\nkode O82.1",
+      "perhatian_khusus": "Diagnosa penyulit/komplikasi menjadi diagnosa",
+      "keywords": [
+        "persalinan",
+        "Z37",
+        "caesar",
+        "O82",
+        "O82.1",
+        "kode",
+        "O82.0"
+      ],
+      "kategori": "faktor_pelayanan_kesehatan"
+    },
+    {
+      "id": "case_0126",
+      "diagnosa": "Anemia pada kehamilan, persalinan, puerperium",
+      "kode_diagnosa": [
+        "O99",
+        "D64",
+        "D64.9",
+        "O99.0",
+        "D50"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Jika dalam ICD 10 terdapat catatan “Use additional\ncode, if desired, to identify specified condition”\nmaka kode tersebut dapat digunakan sesuai \ndengan kondisi pasien (Permenkes 76/2016)\n ICD 10 2010 Volume 1\n Anemia-------\n- complicating pregnancy, childbirth or\npuerperium O99.0\n O99 Other maternal diseases classifiable elsewhere\nbut complicating pregnancy, childbirth and the\npuerperium\nNote: This category includes conditions which\ncomplicate the pregnant state, are aggravated by\nthe pregnancy or are a main reason for obstetric\ncare and for which the Alphabetical Index does not\nindicate a specific rubricin Chapter XV.\nUse additional code, if desired, to identify specific\ncondition\n O99.0 Anaemia complicating pregnancy, childbirth\nand the puerperium\nConditions in D50-D64",
+      "perhatian_khusus": "Anemia pada saat kehamilan atau persalinan",
+      "keywords": [
+        "D50",
+        "puerperium",
+        "anemia",
+        "O99",
+        "persalinan",
+        "D64",
+        "D64.9",
+        "kondisi",
+        "O99.0",
+        "kehamilan",
+        "kode",
+        "pada"
+      ],
+      "kategori": "kehamilan_persalinan"
+    },
+    {
+      "id": "case_0127",
+      "diagnosa": "Pengkodean kondisi penyakit atau kelainan yang\nmenyertai kehamilan atau persalinan",
+      "kode_diagnosa": [
+        "O99",
+        "O95"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Kode O95 - O99 digunakan jika ada kondisi\npenyakit atau kelainan yang menyertai kehamilan\natau persalinan",
+      "perhatian_khusus": "",
+      "keywords": [
+        "kelainan",
+        "O99",
+        "pengkodean",
+        "persalinan",
+        "O95",
+        "penyakit",
+        "menyertai",
+        "atau",
+        "kondisi",
+        "kehamilan",
+        "kode",
+        "yang"
+      ],
+      "kategori": "kehamilan_persalinan"
+    },
+    {
+      "id": "case_0128",
+      "diagnosa": "Bayi lahir dari persalinan dengan infeksi (P39.9)",
+      "kode_diagnosa": [
+        "P39.9"
+      ],
+      "prosedur": "",
+      "aspek_koding": "P39.9 adalah kode untuk Infeksi pada perinatal\nsehingga harus dibuktikan terjadinya infeksi bukan\nhanya terapi yang diberikan.",
+      "perhatian_khusus": "Pastikan tercatat dalam resume medis infeksi yang",
+      "keywords": [
+        "P39.9",
+        "dengan",
+        "persalinan",
+        "lahir",
+        "infeksi",
+        "bayi",
+        "kode",
+        "dari"
+      ],
+      "kategori": "perinatal"
+    },
+    {
+      "id": "case_0129",
+      "diagnosa": "Neonatal jaundice, unspecified (P59.9)",
+      "kode_diagnosa": [
+        "P59.9",
+        "P57",
+        "E70",
+        "E90"
+      ],
+      "prosedur": "",
+      "aspek_koding": "P59.9 Neonatal jaundice, unspecified\nPhysiological jaundice (intense)(prolonged) NOS\nPerhatikan pada kategori\nExcludes : due to inborn errors of metabolism\n(E70-E90)\nkernicterus (P57.-)",
+      "perhatian_khusus": "",
+      "keywords": [
+        "P57",
+        "E90",
+        "P59.9",
+        "neonatal",
+        "unspecified",
+        "jaundice",
+        "E70"
+      ],
+      "kategori": "perinatal"
+    },
+    {
+      "id": "case_0130",
+      "diagnosa": "Atrial septal defect (Q21.1)",
+      "kode_diagnosa": [
+        "I51.0",
+        "Q21.1",
+        "Q21"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Q21.1 Atrial septal defect\nCoronary sinus defect\nPatent or persistent :\n- foramen ovale\n- ostium secundum defect (type II)\nsinus venous defect\nPerhatikan pada sub bab Q21 Congenital\nmalformations of cardiac septa\nKecuali : acquired cardiac septal defect (I51.0)",
+      "perhatian_khusus": "",
+      "keywords": [
+        "Q21",
+        "atrial",
+        "I51.0",
+        "septal",
+        "defect",
+        "Q21.1"
+      ],
+      "kategori": "sistem_sirkulasi"
+    },
+    {
+      "id": "case_0131",
+      "diagnosa": "Tetralogy of fallot (Q21.3)",
+      "kode_diagnosa": [
+        "I51.0",
+        "Q21.3",
+        "Q21"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Q21.3 Tetralogy of fallot\nvetricular septal defect yang disertai pulmonary\nstenosis atau atresia, dextroposition aorta dan\nhypertrophy ventrikel kanan.\nPerhatikan pada sub bab Q21 Congenital\nmalformations of cardiac septa\nKecuali : acquired cardiac septal defect (I51.0)",
+      "perhatian_khusus": "",
+      "keywords": [
+        "Q21.3",
+        "Q21",
+        "fallot",
+        "tetralogy",
+        "I51.0"
+      ],
+      "kategori": "sistem_sirkulasi"
+    },
+    {
+      "id": "case_0132",
+      "diagnosa": "Bradycardia, unspecified (R00.1)",
+      "kode_diagnosa": [
+        "R00",
+        "R00.1",
+        "I47",
+        "P29.1",
+        "I49"
+      ],
+      "prosedur": "",
+      "aspek_koding": "R00.1 Bradycardia, unspesified\nBradycardia :\n- simoatrial\n- sinus\n- vagal\nSlow heart beat\nUse additional external cause code (Chapter XX, if\ndesired, to identify drug-induced)\nPerhatikan sub bab R00 Abnormalities of heart\nbeat. Kecuali pada kondisi :\nAbnormalitas yang disebabkan pada masa perinatal\ngunakan kode P29.1\nAritmia yang sudah spesifik gunakan kode I47-I49.",
+      "perhatian_khusus": "",
+      "keywords": [
+        "R00",
+        "bradycardia",
+        "R00.1",
+        "I47",
+        "P29.1",
+        "kondisi",
+        "I49",
+        "unspecified",
+        "kode"
+      ],
+      "kategori": "gejala_tanda_abnormal"
+    },
+    {
+      "id": "case_0133",
+      "diagnosa": "Gangrene, not elsewhere classified (R02)",
+      "kode_diagnosa": [
+        "L88",
+        "I70.2",
+        "E10",
+        "E14",
+        "E11.5",
+        "I73",
+        "A48.0",
+        "R02"
+      ],
+      "prosedur": "",
+      "aspek_koding": "R02 Gangrene, not elsewhere classified\nPerhatikan pada sub bab\nR02 Ganrene, NEC \nkecuali pada kondisi :\n- atherosclerosis (I70.2)\n- diabetes mellitus (E10-E14 with common fourth\ncharacter. 5)\n- other peripheral vascular disease (I73,-)\ngangrene of certain specified sites\n- see Alphabetical Index\ngas gangrene (A48.0)\npyoderma gangrenosum (L88)",
+      "perhatian_khusus": "Sesuai kaidah ICD jika gangrene saja dapat dikode",
+      "keywords": [
+        "L88",
+        "I70.2",
+        "E10",
+        "classified",
+        "E14",
+        "E11.5",
+        "not",
+        "I73",
+        "kondisi",
+        "A48.0",
+        "diabetes",
+        "R02",
+        "elsewhere",
+        "gangrene"
+      ],
+      "kategori": "kulit_subkutan"
+    },
+    {
+      "id": "case_0134",
+      "diagnosa": "Epistaxis (R04.0)",
+      "kode_diagnosa": [
+        "R04.0"
+      ],
+      "prosedur": "",
+      "aspek_koding": "R04.0 Epistaxis\nPerdarahan dari rongga hidung.",
+      "perhatian_khusus": "Kondisi perdarahan yang terjadi pada kasus DHF",
+      "keywords": [
+        "R04.0",
+        "epistaxis"
+      ],
+      "kategori": "gejala_tanda_abnormal"
+    },
+    {
+      "id": "case_0135",
+      "diagnosa": "Haemoptysis (R04.2)",
+      "kode_diagnosa": [
+        "R04.2"
+      ],
+      "prosedur": "",
+      "aspek_koding": "R04.2 Haemoptysis\nDahak disertai darah\nBatuk berdarah",
+      "perhatian_khusus": "Perhatikan penyebab dari kondisi Hemoptisis. Jika",
+      "keywords": [
+        "R04.2",
+        "haemoptysis"
+      ],
+      "kategori": "gejala_tanda_abnormal"
+    },
+    {
+      "id": "case_0136",
+      "diagnosa": "Respiratory arrest (R09.2)",
+      "kode_diagnosa": [
+        "P22",
+        "P28.5",
+        "R09",
+        "R09.2",
+        "J96",
+        "J80"
+      ],
+      "prosedur": "",
+      "aspek_koding": "R09.2 Respiratory arrest\nTermasuk didalamnya : cardiorespiratory failure\nPerhatikan pada sub bab\nR09 Other symptoms and signs involving the\ncirculatory and respiratory systems\nKecuali : respiratory :\n- distress (syndrome)(of) :\n- adult (J80)\n- newborn (P22,-)\n- failure (J96,-)\n- newborn (P28.5)",
+      "perhatian_khusus": "Respiratory arrest dapat ditegakkan sebagai",
+      "keywords": [
+        "P22",
+        "P28.5",
+        "R09",
+        "R09.2",
+        "respiratory",
+        "J96",
+        "J80",
+        "arrest"
+      ],
+      "kategori": "perinatal"
+    },
+    {
+      "id": "case_0137",
+      "diagnosa": "Pain locallized to upper abdomen (R10.1)",
+      "kode_diagnosa": [
+        "N48",
+        "K56",
+        "K31.3",
+        "K92.2",
+        "N50",
+        "N23",
+        "R30",
+        "K92.0",
+        "N94",
+        "R39",
+        "M54",
+        "R10.1",
+        "P76",
+        "P54.0",
+        "P54.3",
+        "Q40.0",
+        "R14"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Deskripsi : Epigastric pain\nKriteria eksklusi sub bab:\ngastrointestinal haemorrhage ( K92.0-K92.2 )\n· newborn ( P54.0-P54.3 )\nintestinal obstruction ( K56.- )\n· newborn ( P76.- )\npylorospasm ( K31.3 )\n· congenital or infantile ( Q40.0 )\nTanda dan gejala yang terjadi pada sistem urinari\n(R30-R39)\ngejala yang berhubungan dengan organ genitalia:\n· female (N94.-)\n· male (N48-N50 )\nEksklusi: dorsalgia ( M54.- )\nflatulence and related conditions ( R14 )\nrenal colic ( N23 )",
+      "perhatian_khusus": "",
+      "keywords": [
+        "K92.2",
+        "locallized",
+        "N94",
+        "M54",
+        "R30",
+        "N48",
+        "R39",
+        "P76",
+        "Q40.0",
+        "N50",
+        "K31.3",
+        "upper",
+        "N23",
+        "K92.0",
+        "pain",
+        "R14",
+        "K56",
+        "R10.1",
+        "abdomen",
+        "P54.0",
+        "P54.3"
+      ],
+      "kategori": "sistem_genitourinaria"
+    },
+    {
+      "id": "case_0138",
+      "diagnosa": "Other and unspecified abdominal pain (R10.4)",
+      "kode_diagnosa": [
+        "N48",
+        "K56",
+        "K31.3",
+        "K92.2",
+        "N50",
+        "R10",
+        "R30",
+        "K92.0",
+        "R19",
+        "R39",
+        "N94",
+        "P76",
+        "P54.0",
+        "P54.3",
+        "Q40.0",
+        "R10.4"
+      ],
+      "prosedur": "",
+      "aspek_koding": "R10.4 Other and unspecified abdominal pain\nAbdominal tenderness NOS\nColic:\n· NOS\n· infantile\nR10-R19 Symptoms and signs involving the\ndigestive system and abdomen\nKriteria ekslude\ngastrointestinal haemorrhage (K92.0-K92.2)\ngastrointestinal haemorrhage newborn\n(P54.0-P54.3)\nintestinal obstruction (K56.-)\nintestinal obstruction\nnewborn (P76.-)\npylorospasm (K31.3)\npylorospasm\ncongenital or infantile (Q40.0)\nsymptoms and signs involving the urinary system\n(R30-R39)\nsymptoms referable to genital organs:\nfemale (N94.-)\nmale (N48-N50)",
+      "perhatian_khusus": "Cermati diagnosa banding dan kriteria penegakan",
+      "keywords": [
+        "K92.2",
+        "N94",
+        "R30",
+        "abdominal",
+        "N48",
+        "R39",
+        "P76",
+        "unspecified",
+        "Q40.0",
+        "N50",
+        "K31.3",
+        "R10",
+        "and",
+        "K92.0",
+        "R19",
+        "pain",
+        "other",
+        "R10.4",
+        "K56",
+        "P54.0",
+        "P54.3"
+      ],
+      "kategori": "sistem_genitourinaria"
+    },
+    {
+      "id": "case_0139",
+      "diagnosa": "Fever (R50.9)",
+      "kode_diagnosa": [
+        "P81.9",
+        "R50.9",
+        "O86.4",
+        "O75.2"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Termasuk didalamnya :\nHyperpyrexia NOS\nPyrexia NOS\nKriteria eksklusi Sub bab:\nFever of unknown origin (during)(in): labour\n(O75.2), newborn (P81.9)\nPuerperal pyrexia NOS (O86.4)",
+      "perhatian_khusus": "Konfirmasi penyebab demam yang spesifik sesuai",
+      "keywords": [
+        "R50.9",
+        "P81.9",
+        "O86.4",
+        "fever",
+        "O75.2"
+      ],
+      "kategori": "perinatal"
+    },
+    {
+      "id": "case_0140",
+      "diagnosa": "Febrile convulsions (R56.0)",
+      "kode_diagnosa": [
+        "G41",
+        "F44.5",
+        "G40",
+        "R56.0",
+        "R56",
+        "P90"
+      ],
+      "prosedur": "",
+      "aspek_koding": "R56.0 Febrile convulsions\nPerhatikan pada kategori R56\nExcludes : convulsions and seizures (in) :\n- dissociative (F44.5)\n- epilepsy (G40-G41)\n- newborn (P90)",
+      "perhatian_khusus": "Kode Kejang Demam (R56.0) digunakan sebagai",
+      "keywords": [
+        "R56.0",
+        "P90",
+        "convulsions",
+        "F44.5",
+        "G40",
+        "G41",
+        "R56",
+        "febrile"
+      ],
+      "kategori": "sistem_saraf"
+    },
+    {
+      "id": "case_0141",
+      "diagnosa": "Trombositopeni, mual muntah, nyeri, dan kondisi\ngawat darurat lain yang didiagnosis dari pasien\nkanker pada kasus kegawatdaruratan",
+      "kode_diagnosa": [],
+      "prosedur": "",
+      "aspek_koding": "Diagnosis yang dikoding dan dienty ke aplikasi\nINA-CBG adalah diagnosis kegawatdaruratan,\nsedangkan diagnosis kanker tidak dikoding dan\ndientri jika tidak ada tatalaksana untuk penyakit\nkanker.",
+      "perhatian_khusus": "",
+      "keywords": [
+        "yang",
+        "darurat",
+        "nyeri",
+        "pasien",
+        "kasus",
+        "lain",
+        "trombositopeni",
+        "kanker",
+        "kondisi",
+        "muntah",
+        "dan",
+        "diagnosis",
+        "didiagnosis",
+        "kegawatdaruratan",
+        "mual",
+        "dari",
+        "pada",
+        "gawat"
+      ],
+      "kategori": ""
+    },
+    {
+      "id": "case_0142",
+      "diagnosa": "Diagnosis yang dilakukan di RS Khusus yang\nmemerlukan tindakan seperti rehabilitasi medik,\ngigi, dan lainnya pada pasien kanker, dimana\ndiagnosis tersebut bukan merupakan diagnosis\nkekhususan pada RS Khusus.",
+      "kode_diagnosa": [],
+      "prosedur": "",
+      "aspek_koding": "Sesuai dengan Permenkes No.76 Tahun 2016\nbahwa kode yang dinyatakan sebagai pelayanan\nsesuai kekhususannya adalah jika kode diagnosis\nutama sesuai dengan kekhususan rumah sakit.\nDaftar kode diagnosis untuk pelayanan yang sesuai\ndengan kekhususan rumah sakit, terdapat dalam\nlampiran permenkes No. 76 tahun 2016.",
+      "perhatian_khusus": "Perhatikan tatalaksana.",
+      "keywords": [
+        "pasien",
+        "gigi",
+        "dilakukan",
+        "dimana",
+        "yang",
+        "merupakan",
+        "medik",
+        "kanker",
+        "diagnosis",
+        "khusus",
+        "tersebut",
+        "bukan",
+        "pada",
+        "memerlukan",
+        "lainnya",
+        "kode",
+        "tindakan",
+        "seperti",
+        "rehabilitasi",
+        "kekhususan",
+        "dan"
+      ],
+      "kategori": ""
+    },
+    {
+      "id": "case_0143",
+      "diagnosa": "Diagnosa utama: syok Hipovolemik dan dan\ndiagnosa sekunder :Trauma Intrakranial dikoding\nT79.4\nRS : Diagnosis R571 Diagnosis S067",
+      "kode_diagnosa": [
+        "R57",
+        "T79.4"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Sesuai instruksi excludes pada volume I sub\nbab shock, not elsewhere classified (R57) yang\nmenyatakan shock (due to) traumatic mengarah\npada kode traumatic shock (T79.4). Sehingga\nkode T79.4 digunakan untuk menggantikan shock\nhipovolemik yang ditemukan pada pasien dengan\nriwayat trauma. Diagnosa trauma intrakranial tetap\ndapat dikoding jika mendapatkan tata laksana.",
+      "perhatian_khusus": "Pastikan bahwa penyebab syock karena trauma.",
+      "keywords": [
+        "R57",
+        "T79.4",
+        "sekunder",
+        "utama",
+        "intrakranial",
+        "trauma",
+        "dikoding",
+        "diagnosis",
+        "dan",
+        "diagnosa",
+        "hipovolemik",
+        "kode",
+        "syok"
+      ],
+      "kategori": "gejala_tanda_abnormal"
+    },
+    {
+      "id": "case_0144",
+      "diagnosa": "Diagnosis Utama : Other intracranial injuries S06.8\nDiagnosis Sekunder :\nEncephalopaty G93.4\nCompression of brain G93.5\nRespiratory failure, unspecified J96.9\nHemiplegia, unspecified G81.9",
+      "kode_diagnosa": [
+        "G93.5",
+        "J96.9",
+        "S06.8",
+        "S06.2",
+        "G81.9",
+        "G93.4"
+      ],
+      "prosedur": "Other surgical occlusion of vessels,intracranial\nvessels 38.81\nContinuous invasive mechanical ventilation for 96\nconsecutive hours or more 96.72\nOther craniotomy 01.24\nProsedur : -",
+      "aspek_koding": "Kode diagnosis utama seharusnya S06.2, kode\nG93.5 tidak dikoding jika karena traumatik karena\nsudah termasuk dalam kode S06.2, namun jika\nnon-traumatik dan bisa dibuktikan (terutama dari\ndisiplin ilmu lain) maka bisa dikoding",
+      "perhatian_khusus": "",
+      "keywords": [
+        "G81.9",
+        "utama",
+        "diagnosis",
+        "hemiplegia",
+        "unspecified",
+        "J96.9",
+        "failure",
+        "intracranial",
+        "injuries",
+        "other",
+        "G93.4",
+        "compression",
+        "kode",
+        "G93.5",
+        "sekunder",
+        "S06.8",
+        "S06.2",
+        "encephalopaty",
+        "respiratory",
+        "brain"
+      ],
+      "kategori": "sistem_saraf"
+    },
+    {
+      "id": "case_0145",
+      "diagnosa": "Kombinasi Diagnosis S36.70 Injury of multiple\nintra-abdominal organs, without open wound\nDiagnosis R57.9 Shock, unspecified\nKode revisi T79.4 Traumatic shock",
+      "kode_diagnosa": [
+        "T79.4",
+        "R57.9",
+        "S36.70"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Kondisi injury tetap dikoding sebagai diagnosa\nutama jika memang mendapat tata laksana utama.\nKode T794 digunakan sebagai diagnosa sekunder\nkarena merupakan komplikasi dari injury. Kode\nR579 tidak dikoding lagi, karena sudah ada kode\nT794 yang lebih spesifik.",
+      "perhatian_khusus": "Pastikan bahwa penyebab syock karena trauma.",
+      "keywords": [
+        "abdominal",
+        "T79.4",
+        "injury",
+        "traumatic",
+        "S36.70",
+        "diagnosis",
+        "unspecified",
+        "multiple",
+        "kombinasi",
+        "intra",
+        "kondisi",
+        "without",
+        "kode",
+        "shock",
+        "revisi",
+        "open",
+        "organs",
+        "wound",
+        "R57.9"
+      ],
+      "kategori": "injury_poisoning"
+    },
+    {
+      "id": "case_0146",
+      "diagnosa": "Kombinasi Diagnosis T09.3 Injury of spinal cord,\nlevel unspecified Diagnosis R57.1 Hypovolaemic\nshock\nKode revisi T79.4 Traumatic shock",
+      "kode_diagnosa": [
+        "R57.1",
+        "T09.3",
+        "T79.4"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Kode hypovolaemic shock dapat diganti dengan\nkode T794, apabila kondisi shock hipovolemik\ndisebabkan oleh trauma (sesuai kaidah ICD 10\nVolume III). Namun kode injury tetap dikode jika\nmendapatkan tata laksana tersendiri.",
+      "perhatian_khusus": "Pastikan bahwa penyebab syock karena trauma.",
+      "keywords": [
+        "shock",
+        "revisi",
+        "T09.3",
+        "T79.4",
+        "injury",
+        "kombinasi",
+        "traumatic",
+        "cord",
+        "spinal",
+        "diagnosis",
+        "kondisi",
+        "hypovolaemic",
+        "unspecified",
+        "R57.1",
+        "kode",
+        "level"
+      ],
+      "kategori": "gejala_tanda_abnormal"
+    },
+    {
+      "id": "case_0147",
+      "diagnosa": "Follow-up care involving removal of fracture plate\nand other internal fixation device (Z47.0)",
+      "kode_diagnosa": [
+        "Z47.8",
+        "Z47.0",
+        "Z09.4",
+        "T84",
+        "Z50"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Z47.0 Follow-up care involving removal of fracture\nplate and ather internal fixation device\nRemoval of :\n- pins\n- plates\n- rods\n- screws\nPada sub kategori :\nExcludes : removal of external fixation device Z47.8\nPada sub Bab :\nExcludes : care involving rehabilitation procedures\n(Z50,-)\ncomplication of internal orthopaedic devices,\nimplants and grafts\n(T84,-)\nfollow-up examination ofter treatment of fracture\n(Z09.4)",
+      "perhatian_khusus": "Jika episode perawatan hanya untuk pengangkatan",
+      "keywords": [
+        "fixation",
+        "Z47.8",
+        "Z47.0",
+        "Z09.4",
+        "involving",
+        "care",
+        "and",
+        "T84",
+        "device",
+        "internal",
+        "follow",
+        "Z50",
+        "plate",
+        "other",
+        "removal",
+        "fracture"
+      ],
+      "kategori": "faktor_pelayanan_kesehatan"
+    },
+    {
+      "id": "case_0148",
+      "diagnosa": "Kemoterapi Oral",
+      "kode_diagnosa": [
+        "Z51.1"
+      ],
+      "prosedur": "",
+      "aspek_koding": "Tindakan kemoterapi oral menggunakan kode\nZ51.1 sebagai diagnosis utama dan kode\nneoplasma sebagai diagnosis sekunder",
+      "perhatian_khusus": "",
+      "keywords": [
+        "oral",
+        "kemoterapi",
+        "diagnosis",
+        "Z51.1",
+        "kode"
+      ],
+      "kategori": "faktor_pelayanan_kesehatan"
+    }
+  ]
+}

@@ -197,13 +197,51 @@ def initialize_conversation_state(user_id):
             create_new_conversation()
 
 # --- TAHAP 0: KONFIGURASI DAN VALIDASI LINGKUNGAN ---
+# def setup_environment():
+#     """Memuat .env dan memvalidasi keberadaan kunci API."""
+#     load_dotenv()
+#     if os.getenv("GOOGLE_API_KEY") is None:
+#         st.error("❌ ERROR: Variabel lingkungan GOOGLE_API_KEY tidak ditemukan.")
+#         st.error("Pastikan Anda telah membuat file .env dan memasukkan kunci API Anda di sana.")
+#         st.stop()
+
+# --- TAHAP 0: KONFIGURASI DAN VALIDASI LINGKUNGAN ---
 def setup_environment():
-    """Memuat .env dan memvalidasi keberadaan kunci API."""
-    load_dotenv()
-    if os.getenv("GOOGLE_API_KEY") is None:
-        st.error("❌ ERROR: Variabel lingkungan GOOGLE_API_KEY tidak ditemukan.")
-        st.error("Pastikan Anda telah membuat file .env dan memasukkan kunci API Anda di sana.")
+    """Memuat API key dari Streamlit secrets atau .env file."""
+    api_key = None
+    
+    # Coba ambil dari Streamlit secrets (untuk deployment)
+    try:
+        api_key = st.secrets.get("GOOGLE_API_KEY")
+    except:
+        pass
+    
+    # Jika tidak ada di secrets, coba dari .env file (untuk development lokal)
+    if not api_key:
+        load_dotenv()
+        api_key = os.getenv("GOOGLE_API_KEY")
+    
+    # Validasi API key
+    if not api_key:
+        st.error("❌ **ERROR: GOOGLE_API_KEY tidak ditemukan!**")
+        
+        tab1, tab2 = st.tabs(["☁️ Streamlit Cloud", "💻 Development Lokal"])
+        
+        with tab1:
+            st.markdown("**Untuk deployment di Streamlit Cloud:**")
+            st.code('GOOGLE_API_KEY = "your_api_key_here"', language="toml")
+            st.caption("1. Buka Settings > Secrets\n2. Paste kode di atas\n3. Ganti dengan API key Anda\n4. Save")
+        
+        with tab2:
+            st.markdown("**Untuk development lokal:**")
+            st.code('GOOGLE_API_KEY=your_api_key_here', language="text")
+            st.caption("1. Buat file .env di root folder\n2. Paste kode di atas\n3. Ganti dengan API key Anda\n4. Restart app")
+        
+        st.link_button("🔑 Dapatkan API Key", "https://makersuite.google.com/app/apikey")
         st.stop()
+    
+    # Set environment variable agar bisa digunakan oleh library
+    os.environ["GOOGLE_API_KEY"] = api_key
 
         # --- SMART JSON CHUNKING ---
 def load_json_database(json_file: str) -> Dict:

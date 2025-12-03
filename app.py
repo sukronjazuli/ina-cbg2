@@ -12,7 +12,6 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.chains import RetrievalQA
 
 # --- TAHAP 0: KONFIGURASI DAN VALIDASI LINGKUNGAN ---
-# --- TAHAP 0: KONFIGURASI DAN VALIDASI LINGKUNGAN ---
 def setup_environment():
     """Memuat API key dari Streamlit secrets atau .env file."""
     api_key = None

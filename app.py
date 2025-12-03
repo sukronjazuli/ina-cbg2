@@ -1,7 +1,17 @@
 import streamlit as st
 import os
 import sys
+import json
+import uuid
 from dotenv import load_dotenv
+from datetime import datetime
+
+# Configure page to hide menu at the very beginning
+st.set_page_config(
+    page_title="Analisis Dokumen AI dengan RAG",
+    page_icon="📄",
+    menu_items=None
+)
 
 # Pustaka LangChain & Komponen AI
 from langchain_community.document_loaders import TextLoader
@@ -11,6 +21,53 @@ from langchain_community.vectorstores import FAISS
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.chains import RetrievalQA
 
+# --- USER SESSION MANAGEMENT ---
+def get_or_create_user_id():
+    """Membuat atau mengambil user ID unik untuk setiap browser/session."""
+    if 'user_id' not in st.session_state:
+        # Generate unique user ID
+        st.session_state.user_id = str(uuid.uuid4())
+        st.session_state.session_created = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    return st.session_state.user_id
+
+def load_user_history(user_id):
+    """Memuat riwayat chat untuk user tertentu."""
+    history_dir = "user_histories"
+    if not os.path.exists(history_dir):
+        os.makedirs(history_dir)
+    
+    history_file = os.path.join(history_dir, f"{user_id}.json")
+    
+    if os.path.exists(history_file):
+        try:
+            with open(history_file, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except:
+            return []
+    return []
+
+def save_user_history(user_id, history):
+    """Menyimpan riwayat chat untuk user tertentu."""
+    history_dir = "user_histories"
+    if not os.path.exists(history_dir):
+        os.makedirs(history_dir)
+    
+    history_file = os.path.join(history_dir, f"{user_id}.json")
+    
+    with open(history_file, "w", encoding="utf-8") as f:
+        json.dump(history, f, ensure_ascii=False, indent=4)
+
+def clear_user_history(user_id):
+    """Menghapus riwayat chat user."""
+    history_dir = "user_histories"
+    history_file = os.path.join(history_dir, f"{user_id}.json")
+    
+    if os.path.exists(history_file):
+        os.remove(history_file)
+    
+    st.session_state.history = []
+
+# --- TAHAP 0: KONFIGURASI DAN VALIDASI LINGKUNGAN ---
 # --- TAHAP 0: KONFIGURASI DAN VALIDASI LINGKUNGAN ---
 def setup_environment():
     """Memuat API key dari Streamlit secrets atau .env file."""
@@ -63,7 +120,6 @@ def load_and_split_documents(file_path):
                 length_function=len
             )
             chunks = text_splitter.split_documents(documents)
-            st.success(f"Berhasil memecah dokumen menjadi {len(chunks)} bagian.")
             return chunks
         except Exception as e:
             st.error(f"ERROR saat memuat/memecah dokumen: {e}")
@@ -76,9 +132,7 @@ def index_documents(_chunks):
     with st.spinner("Membuat Embedding dan Indexing dengan FAISS..."):
         try:
             embedding_model = SentenceTransformerEmbeddings(model_name="all-MiniLM-L6-v2")
-            # Menggunakan FAISS sebagai pengganti ChromaDB
             db = FAISS.from_documents(_chunks, embedding_model)
-            st.success("Vektor telah tersimpan di Vector Database (FAISS).")
             return db
         except Exception as e:
             st.error(f"ERROR saat membuat index FAISS: {e}")
@@ -92,15 +146,12 @@ def run_qa_chain(db, query):
         try:
             llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash", temperature=0.0, convert_system_message_to_human=True)
 
-            # Menggunakan 'from_chain_type' yang merupakan metode standar
             qa_chain = RetrievalQA.from_chain_type(
                 llm=llm,
                 chain_type="stuff",
                 retriever=db.as_retriever(search_kwargs={"k": 5})
             )
 
-            st.info(f"Mengajukan pertanyaan: '{query}'")
-            # Menggunakan metode invoke yang lebih modern dengan instruksi bahasa Indonesia
             response = qa_chain.invoke(f"Jawab dalam bahasa Indonesia: {query}")
             return response['result']
         except Exception as e:
@@ -109,11 +160,48 @@ def run_qa_chain(db, query):
 
 # --- MAIN STREAMLIT APP ---
 def main():
+    # Hide Streamlit menu and footer
+    hide_streamlit_style = """
+    <style>
+    #MainMenu {visibility: hidden;}
+    footer {visibility: hidden;}
+    header {visibility: hidden;}
+    .stDeployButton {display: none;}
+    [data-testid="stToolbar"] {visibility: hidden;}
+    [data-testid="stDecoration"] {visibility: hidden;}
+    .css-1rs6os {visibility: hidden;}
+    .css-1lsmgbg {visibility: hidden;}
+    .viewerBadge_container__1QSob {display: none;}
+    .viewerBadge_link__1S137 {display: none;}
+    </style>
+    """
+    st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+
     st.title("📄 Analisis Dokumen AI dengan RAG")
     st.markdown("Aplikasi untuk menganalisis dokumen menggunakan Retrieval-Augmented Generation (RAG) dengan Gemini AI.")
 
     # Setup environment
     setup_environment()
+
+    # Get or create unique user ID
+    user_id = get_or_create_user_id()
+
+    # Initialize history in session state if not exists
+    if 'history' not in st.session_state:
+        st.session_state.history = load_user_history(user_id)
+
+    # Sidebar untuk informasi user dan kontrol
+    with st.sidebar:
+        st.subheader("🔐 Session Info")
+        st.caption(f"Session ID: `{user_id[:8]}...`")
+        st.caption(f"Total Chat: {len(st.session_state.history)}")
+        
+        if st.button("🗑️ Hapus Riwayat Chat", use_container_width=True):
+            clear_user_history(user_id)
+            st.rerun()
+        
+        st.divider()
+        st.caption("💡 Setiap browser memiliki riwayat chat terpisah")
 
     # File configuration
     text_file = "contoh_dokumen_extracted_extracted.txt"
@@ -127,26 +215,40 @@ def main():
         document_chunks = load_and_split_documents(text_file)
         vector_db = index_documents(document_chunks)
 
-        # Question input
-        st.header("❓ Ajukan Pertanyaan")
-        pertanyaan_user = st.text_area(
-            "Masukkan pertanyaan Anda tentang dokumen:",
-            value="Jelaskan secara rinci tentang bagian penting terkait tanggung jawab manajemen yang disebutkan di dalam dokumen ini.",
-            height=100
-        )
+        # Display chat history
+        for chat in st.session_state.history:
+            with st.chat_message("user"):
+                st.write(chat["question"])
+            with st.chat_message("assistant"):
+                st.write(chat["answer"])
 
-        if st.button("🔍 Analisis Dokumen", type="primary"):
+        # Chat input
+        pertanyaan_user = st.chat_input("Ajukan pertanyaan Anda tentang dokumen:")
+
+        if pertanyaan_user:
             if pertanyaan_user.strip():
                 # Run Q&A
                 final_answer = run_qa_chain(vector_db, pertanyaan_user)
 
-                # Display results
-                st.header("📊 Hasil Analisis AI (GEMINI)")
-                st.subheader(f"Pertanyaan: {pertanyaan_user}")
-                st.markdown("---")
-                st.write(final_answer)
-                st.markdown("---")
-                st.success("Analisis selesai!")
+                # Add to history
+                chat_entry = {
+                    "question": pertanyaan_user,
+                    "answer": final_answer,
+                    "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                }
+                st.session_state.history.append(chat_entry)
+
+                # Save history to user's file
+                save_user_history(user_id, st.session_state.history)
+
+                # Display new chat messages
+                with st.chat_message("user"):
+                    st.write(pertanyaan_user)
+                with st.chat_message("assistant"):
+                    st.write(final_answer)
+                
+                # Rerun to update sidebar info
+                st.rerun()
             else:
                 st.warning("Silakan masukkan pertanyaan terlebih dahulu.")
 

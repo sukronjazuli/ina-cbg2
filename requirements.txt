@@ -1,6 +1,8 @@
 streamlit
 python-dotenv
 langchain
+langchain-community
+langchain-text-splitters
 sentence-transformers
 faiss-cpu
 langchain-google-genai

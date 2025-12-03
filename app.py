@@ -4,6 +4,13 @@ import sys
 import json
 from dotenv import load_dotenv
 
+# Configure page to hide menu at the very beginning
+st.set_page_config(
+    page_title="Analisis Dokumen AI dengan RAG",
+    page_icon="📄",
+    menu_items=None
+)
+
 # Pustaka LangChain & Komponen AI
 from langchain_community.document_loaders import TextLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
@@ -110,6 +117,23 @@ def run_qa_chain(db, query):
 
 # --- MAIN STREAMLIT APP ---
 def main():
+    # Hide Streamlit menu and footer
+    hide_streamlit_style = """
+    <style>
+    #MainMenu {visibility: hidden;}
+    footer {visibility: hidden;}
+    header {visibility: hidden;}
+    .stDeployButton {display: none;}
+    [data-testid="stToolbar"] {visibility: hidden;}
+    [data-testid="stDecoration"] {visibility: hidden;}
+    .css-1rs6os {visibility: hidden;}
+    .css-1lsmgbg {visibility: hidden;}
+    .viewerBadge_container__1QSob {display: none;}
+    .viewerBadge_link__1S137 {display: none;}
+    </style>
+    """
+    st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+
     st.title("📄 Analisis Dokumen AI dengan RAG")
     st.markdown("Aplikasi untuk menganalisis dokumen menggunakan Retrieval-Augmented Generation (RAG) dengan Gemini AI.")
 

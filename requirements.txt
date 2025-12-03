@@ -1,6 +1,7 @@
 streamlit
 python-dotenv
 langchain-community
+langchain-text-splitters
 langchain
 sentence-transformers
 faiss-cpu

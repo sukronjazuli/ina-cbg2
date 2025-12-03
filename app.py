@@ -2,7 +2,9 @@ import streamlit as st
 import os
 import sys
 import json
+import uuid
 from dotenv import load_dotenv
+from datetime import datetime
 
 # Configure page to hide menu at the very beginning
 st.set_page_config(
@@ -18,6 +20,52 @@ from langchain_community.embeddings import SentenceTransformerEmbeddings
 from langchain_community.vectorstores import FAISS
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.chains import RetrievalQA
+
+# --- USER SESSION MANAGEMENT ---
+def get_or_create_user_id():
+    """Membuat atau mengambil user ID unik untuk setiap browser/session."""
+    if 'user_id' not in st.session_state:
+        # Generate unique user ID
+        st.session_state.user_id = str(uuid.uuid4())
+        st.session_state.session_created = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    return st.session_state.user_id
+
+def load_user_history(user_id):
+    """Memuat riwayat chat untuk user tertentu."""
+    history_dir = "user_histories"
+    if not os.path.exists(history_dir):
+        os.makedirs(history_dir)
+    
+    history_file = os.path.join(history_dir, f"{user_id}.json")
+    
+    if os.path.exists(history_file):
+        try:
+            with open(history_file, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except:
+            return []
+    return []
+
+def save_user_history(user_id, history):
+    """Menyimpan riwayat chat untuk user tertentu."""
+    history_dir = "user_histories"
+    if not os.path.exists(history_dir):
+        os.makedirs(history_dir)
+    
+    history_file = os.path.join(history_dir, f"{user_id}.json")
+    
+    with open(history_file, "w", encoding="utf-8") as f:
+        json.dump(history, f, ensure_ascii=False, indent=4)
+
+def clear_user_history(user_id):
+    """Menghapus riwayat chat user."""
+    history_dir = "user_histories"
+    history_file = os.path.join(history_dir, f"{user_id}.json")
+    
+    if os.path.exists(history_file):
+        os.remove(history_file)
+    
+    st.session_state.history = []
 
 # --- TAHAP 0: KONFIGURASI DAN VALIDASI LINGKUNGAN ---
 def setup_environment():
@@ -71,7 +119,6 @@ def load_and_split_documents(file_path):
                 length_function=len
             )
             chunks = text_splitter.split_documents(documents)
-            st.success(f"Berhasil memecah dokumen menjadi {len(chunks)} bagian.")
             return chunks
         except Exception as e:
             st.error(f"ERROR saat memuat/memecah dokumen: {e}")
@@ -84,9 +131,7 @@ def index_documents(_chunks):
     with st.spinner("Membuat Embedding dan Indexing dengan FAISS..."):
         try:
             embedding_model = SentenceTransformerEmbeddings(model_name="all-MiniLM-L6-v2")
-            # Menggunakan FAISS sebagai pengganti ChromaDB
             db = FAISS.from_documents(_chunks, embedding_model)
-            st.success("Vektor telah tersimpan di Vector Database (FAISS).")
             return db
         except Exception as e:
             st.error(f"ERROR saat membuat index FAISS: {e}")
@@ -100,15 +145,12 @@ def run_qa_chain(db, query):
         try:
             llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash", temperature=0.0, convert_system_message_to_human=True)
 
-            # Menggunakan 'from_chain_type' yang merupakan metode standar
             qa_chain = RetrievalQA.from_chain_type(
                 llm=llm,
                 chain_type="stuff",
                 retriever=db.as_retriever(search_kwargs={"k": 5})
             )
 
-            st.info(f"Mengajukan pertanyaan: '{query}'")
-            # Menggunakan metode invoke yang lebih modern dengan instruksi bahasa Indonesia
             response = qa_chain.invoke(f"Jawab dalam bahasa Indonesia: {query}")
             return response['result']
         except Exception as e:
@@ -140,18 +182,25 @@ def main():
     # Setup environment
     setup_environment()
 
-    # History file
-    history_file = "chat_history.json"
+    # Get or create unique user ID
+    user_id = get_or_create_user_id()
 
-    # Load history from file if exists
-    if os.path.exists(history_file):
-        try:
-            with open(history_file, "r", encoding="utf-8") as f:
-                st.session_state.history = json.load(f)
-        except:
-            st.session_state.history = []
-    else:
-        st.session_state.history = []
+    # Initialize history in session state if not exists
+    if 'history' not in st.session_state:
+        st.session_state.history = load_user_history(user_id)
+
+    # Sidebar untuk informasi user dan kontrol
+    with st.sidebar:
+        st.subheader("🔐 Session Info")
+        st.caption(f"Session ID: `{user_id[:8]}...`")
+        st.caption(f"Total Chat: {len(st.session_state.history)}")
+        
+        if st.button("🗑️ Hapus Riwayat Chat", use_container_width=True):
+            clear_user_history(user_id)
+            st.rerun()
+        
+        st.divider()
+        st.caption("💡 Setiap browser memiliki riwayat chat terpisah")
 
     # File configuration
     text_file = "contoh_dokumen_extracted_extracted.txt"
@@ -181,17 +230,24 @@ def main():
                 final_answer = run_qa_chain(vector_db, pertanyaan_user)
 
                 # Add to history
-                st.session_state.history.append({"question": pertanyaan_user, "answer": final_answer})
+                chat_entry = {
+                    "question": pertanyaan_user,
+                    "answer": final_answer,
+                    "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                }
+                st.session_state.history.append(chat_entry)
 
-                # Save history to file
-                with open(history_file, "w", encoding="utf-8") as f:
-                    json.dump(st.session_state.history, f, ensure_ascii=False, indent=4)
+                # Save history to user's file
+                save_user_history(user_id, st.session_state.history)
 
                 # Display new chat messages
                 with st.chat_message("user"):
                     st.write(pertanyaan_user)
                 with st.chat_message("assistant"):
                     st.write(final_answer)
+                
+                # Rerun to update sidebar info
+                st.rerun()
             else:
                 st.warning("Silakan masukkan pertanyaan terlebih dahulu.")
 

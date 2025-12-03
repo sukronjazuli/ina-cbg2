@@ -10,13 +10,7 @@ from datetime import datetime
 st.set_page_config(
     page_title="Analisis Dokumen AI dengan RAG",
     page_icon="📄",
-    layout="wide",  # Optional: gunakan full width
-    initial_sidebar_state="expanded",  # Sidebar terbuka saat pertama load
-    menu_items={
-        'Get Help': None,
-        'Report a bug': None,
-        'About': None
-    }
+    menu_items=None
 )
 
 # Pustaka LangChain & Komponen AI
@@ -169,24 +163,31 @@ def run_qa_chain(db, query):
 
 # --- MAIN STREAMLIT APP ---
 def main():
-    # FIXED: CSS yang AMAN - hanya sembunyikan yang benar-benar tidak perlu
+    # CSS MINIMAL - Hanya sembunyikan yang benar-benar tidak diperlukan
+    # JANGAN sembunyikan header, toolbar, atau elemen structural lainnya
     hide_streamlit_style = """
     <style>
-    /* Sembunyikan menu hamburger (3 garis) di kanan atas */
-    #MainMenu {visibility: hidden;}
+    /* Sembunyikan menu hamburger Streamlit (titik tiga) */
+    #MainMenu {
+        visibility: hidden;
+    }
     
     /* Sembunyikan footer "Made with Streamlit" */
-    footer {visibility: hidden;}
+    footer {
+        visibility: hidden;
+    }
+    footer:after {
+        content:'';
+        visibility: visible;
+        display: block;
+    }
     
-    /* Sembunyikan tombol Deploy */
-    .stDeployButton {display: none;}
-    
-    /* Sembunyikan badge/decoration Streamlit */
-    [data-testid="stDecoration"] {display: none;}
-    div[data-testid="stStatusWidget"] {display: none;}
-    
-    /* JANGAN sembunyikan header atau toolbar - biarkan default Streamlit! */
-    /* Ini yang menyebabkan tombol sidebar hilang */
+    /* Sembunyikan badge/watermark Streamlit */
+    .viewerBadge_container__1QSob,
+    .viewerBadge_link__1S137,
+    .viewerBadge_text__1JaDO {
+        display: none !important;
+    }
     </style>
     """
     st.markdown(hide_streamlit_style, unsafe_allow_html=True)

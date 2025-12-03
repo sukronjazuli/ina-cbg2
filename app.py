@@ -42,7 +42,8 @@ def load_user_history(user_id):
         try:
             with open(history_file, "r", encoding="utf-8") as f:
                 return json.load(f)
-        except:
+        except Exception as e:
+            st.error(f"Error loading history: {e}")
             return []
     return []
 
@@ -54,8 +55,11 @@ def save_user_history(user_id, history):
     
     history_file = os.path.join(history_dir, f"{user_id}.json")
     
-    with open(history_file, "w", encoding="utf-8") as f:
-        json.dump(history, f, ensure_ascii=False, indent=4)
+    try:
+        with open(history_file, "w", encoding="utf-8") as f:
+            json.dump(history, f, ensure_ascii=False, indent=4)
+    except Exception as e:
+        st.error(f"Error saving history: {e}")
 
 def clear_user_history(user_id):
     """Menghapus riwayat chat user."""
@@ -159,19 +163,46 @@ def run_qa_chain(db, query):
 
 # --- MAIN STREAMLIT APP ---
 def main():
-    # Hide Streamlit menu and footer
+    # FIXED: CSS yang lebih spesifik agar tidak menyembunyikan toggle sidebar
     hide_streamlit_style = """
     <style>
+    /* Sembunyikan menu utama Streamlit */
     #MainMenu {visibility: hidden;}
+    
+    /* Sembunyikan footer */
     footer {visibility: hidden;}
-    header {visibility: hidden;}
+    
+    /* Sembunyikan deploy button */
     .stDeployButton {display: none;}
-    [data-testid="stToolbar"] {visibility: hidden;}
-    [data-testid="stDecoration"] {visibility: hidden;}
-    .css-1rs6os {visibility: hidden;}
-    .css-1lsmgbg {visibility: hidden;}
+    
+    /* Sembunyikan toolbar tapi BUKAN header utama */
+    [data-testid="stToolbar"] {
+        visibility: hidden;
+        height: 0;
+        overflow: hidden;
+    }
+    
+    /* Sembunyikan decoration */
+    [data-testid="stDecoration"] {display: none;}
+    
+    /* Sembunyikan "Made with Streamlit" badge */
     .viewerBadge_container__1QSob {display: none;}
     .viewerBadge_link__1S137 {display: none;}
+    
+    /* CSS khusus untuk versi lama Streamlit */
+    .css-1rs6os {visibility: hidden;}
+    .css-1lsmgbg {visibility: hidden;}
+    
+    /* PENTING: Pastikan sidebar toggle tetap visible */
+    [data-testid="collapsedControl"] {
+        visibility: visible !important;
+        display: block !important;
+    }
+    
+    /* Pastikan button sidebar collapse/expand tetap terlihat */
+    button[kind="header"] {
+        visibility: visible !important;
+    }
     </style>
     """
     st.markdown(hide_streamlit_style, unsafe_allow_html=True)

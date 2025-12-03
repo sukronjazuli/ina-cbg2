@@ -10,7 +10,13 @@ from datetime import datetime
 st.set_page_config(
     page_title="Analisis Dokumen AI dengan RAG",
     page_icon="📄",
-    menu_items=None
+    layout="wide",  # Optional: gunakan full width
+    initial_sidebar_state="expanded",  # Sidebar terbuka saat pertama load
+    menu_items={
+        'Get Help': None,
+        'Report a bug': None,
+        'About': None
+    }
 )
 
 # Pustaka LangChain & Komponen AI
@@ -163,46 +169,24 @@ def run_qa_chain(db, query):
 
 # --- MAIN STREAMLIT APP ---
 def main():
-    # FIXED: CSS yang lebih spesifik agar tidak menyembunyikan toggle sidebar
+    # FIXED: CSS yang AMAN - hanya sembunyikan yang benar-benar tidak perlu
     hide_streamlit_style = """
     <style>
-    /* Sembunyikan menu utama Streamlit */
+    /* Sembunyikan menu hamburger (3 garis) di kanan atas */
     #MainMenu {visibility: hidden;}
     
-    /* Sembunyikan footer */
+    /* Sembunyikan footer "Made with Streamlit" */
     footer {visibility: hidden;}
     
-    /* Sembunyikan deploy button */
+    /* Sembunyikan tombol Deploy */
     .stDeployButton {display: none;}
     
-    /* Sembunyikan toolbar tapi BUKAN header utama */
-    [data-testid="stToolbar"] {
-        visibility: hidden;
-        height: 0;
-        overflow: hidden;
-    }
-    
-    /* Sembunyikan decoration */
+    /* Sembunyikan badge/decoration Streamlit */
     [data-testid="stDecoration"] {display: none;}
+    div[data-testid="stStatusWidget"] {display: none;}
     
-    /* Sembunyikan "Made with Streamlit" badge */
-    .viewerBadge_container__1QSob {display: none;}
-    .viewerBadge_link__1S137 {display: none;}
-    
-    /* CSS khusus untuk versi lama Streamlit */
-    .css-1rs6os {visibility: hidden;}
-    .css-1lsmgbg {visibility: hidden;}
-    
-    /* PENTING: Pastikan sidebar toggle tetap visible */
-    [data-testid="collapsedControl"] {
-        visibility: visible !important;
-        display: block !important;
-    }
-    
-    /* Pastikan button sidebar collapse/expand tetap terlihat */
-    button[kind="header"] {
-        visibility: visible !important;
-    }
+    /* JANGAN sembunyikan header atau toolbar - biarkan default Streamlit! */
+    /* Ini yang menyebabkan tombol sidebar hilang */
     </style>
     """
     st.markdown(hide_streamlit_style, unsafe_allow_html=True)

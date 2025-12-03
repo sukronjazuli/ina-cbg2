@@ -1,6 +1,7 @@
 import streamlit as st
 import os
 import sys
+import json
 from dotenv import load_dotenv
 
 # Pustaka LangChain & Komponen AI
@@ -115,8 +116,17 @@ def main():
     # Setup environment
     setup_environment()
 
-    # Initialize history if not exists
-    if "history" not in st.session_state:
+    # History file
+    history_file = "chat_history.json"
+
+    # Load history from file if exists
+    if os.path.exists(history_file):
+        try:
+            with open(history_file, "r", encoding="utf-8") as f:
+                st.session_state.history = json.load(f)
+        except:
+            st.session_state.history = []
+    else:
         st.session_state.history = []
 
     # File configuration
@@ -148,6 +158,10 @@ def main():
 
                 # Add to history
                 st.session_state.history.append({"question": pertanyaan_user, "answer": final_answer})
+
+                # Save history to file
+                with open(history_file, "w", encoding="utf-8") as f:
+                    json.dump(st.session_state.history, f, ensure_ascii=False, indent=4)
 
                 # Display new chat messages
                 with st.chat_message("user"):

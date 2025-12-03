@@ -115,6 +115,10 @@ def main():
     # Setup environment
     setup_environment()
 
+    # Initialize history if not exists
+    if "history" not in st.session_state:
+        st.session_state.history = []
+
     # File configuration
     text_file = "contoh_dokumen_extracted_extracted.txt"
 
@@ -127,26 +131,29 @@ def main():
         document_chunks = load_and_split_documents(text_file)
         vector_db = index_documents(document_chunks)
 
-        # Question input
-        st.header("❓ Ajukan Pertanyaan")
-        pertanyaan_user = st.text_area(
-            "Masukkan pertanyaan Anda tentang dokumen:",
-            value="Jelaskan secara rinci tentang bagian penting terkait tanggung jawab manajemen yang disebutkan di dalam dokumen ini.",
-            height=100
-        )
+        # Display chat history
+        for chat in st.session_state.history:
+            with st.chat_message("user"):
+                st.write(chat["question"])
+            with st.chat_message("assistant"):
+                st.write(chat["answer"])
 
-        if st.button("🔍 Analisis Dokumen", type="primary"):
+        # Chat input
+        pertanyaan_user = st.chat_input("Ajukan pertanyaan Anda tentang dokumen:")
+
+        if pertanyaan_user:
             if pertanyaan_user.strip():
                 # Run Q&A
                 final_answer = run_qa_chain(vector_db, pertanyaan_user)
 
-                # Display results
-                st.header("📊 Hasil Analisis AI (GEMINI)")
-                st.subheader(f"Pertanyaan: {pertanyaan_user}")
-                st.markdown("---")
-                st.write(final_answer)
-                st.markdown("---")
-                st.success("Analisis selesai!")
+                # Add to history
+                st.session_state.history.append({"question": pertanyaan_user, "answer": final_answer})
+
+                # Display new chat messages
+                with st.chat_message("user"):
+                    st.write(pertanyaan_user)
+                with st.chat_message("assistant"):
+                    st.write(final_answer)
             else:
                 st.warning("Silakan masukkan pertanyaan terlebih dahulu.")
 

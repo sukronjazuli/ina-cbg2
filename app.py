@@ -163,8 +163,7 @@ def run_qa_chain(db, query):
 
 # --- MAIN STREAMLIT APP ---
 def main():
-    # CSS MINIMAL - Hanya sembunyikan yang benar-benar tidak diperlukan
-    # JANGAN sembunyikan header, toolbar, atau elemen structural lainnya
+    # CSS untuk menyembunyikan elemen dan fix chat input di bottom
     hide_streamlit_style = """
     <style>
     /* Sembunyikan menu hamburger Streamlit (titik tiga) */
@@ -187,6 +186,28 @@ def main():
     .viewerBadge_link__1S137,
     .viewerBadge_text__1JaDO {
         display: none !important;
+    }
+    
+    /* CHAT INPUT DI BOTTOM - seperti chatbot modern */
+    .stChatFloatingInputContainer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: var(--background-color);
+        padding: 1rem;
+        border-top: 1px solid rgba(250, 250, 250, 0.2);
+        z-index: 999;
+    }
+    
+    /* Atur main content agar tidak tertutup chat input */
+    .main .block-container {
+        padding-bottom: 6rem;
+    }
+    
+    /* Style chat input agar lebih menarik */
+    .stChatInput {
+        border-radius: 20px;
     }
     </style>
     """
